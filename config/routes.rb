@@ -5,4 +5,8 @@ RailsPrelaunchSignup::Application.routes.draw do
   root :to => "home#index"
   devise_for :users
   resources :users
+
+  match "/kate" => "people#kate"
+  match "/signup" => "signup#signup"
+
 end

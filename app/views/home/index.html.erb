@@ -1,4 +1,25 @@
-<h3>Home</h3>
-<% @users.each do |user| %>
-  <p>User: <%=link_to user.name, user %></p>
-<% end %>
+
+<div class="splash">
+	<head>
+		<title>Kubmo</title>
+		<link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
+	</head>
+
+	<div class="logo">
+		<img src="/images/logo-full.png" alt="kubmo logo"> 	
+	</div>
+
+	<div class="content">
+    	<p>We help women gain independence in developing countries.</p>       
+ 		<a href="/kate" class="call-to-action"> Kate </a>
+ 		<br/>
+ 		<a href="/marriel" class="call-to-action"> Marriel </a>
+	</div>
+
+	<div class="button">
+	<form action= "/signup">
+		<button> GET INVOLVED </button>
+		<input name="email"> email </input>
+	</form>  
+</div>
+</div>
