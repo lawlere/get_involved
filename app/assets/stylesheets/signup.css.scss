@@ -1,0 +1,63 @@
+.splash {
+    background: url('/images/girl_1.png') 0 0 no-repeat;
+    width: 1200px;
+    height: 800px;
+    position: relative;
+    z-index: -900;
+    font-family:'Bitter', serif;
+    font-size: 18px;
+
+    form {
+        position: absolute;
+        right: 100px;
+        bottom: 100px;
+    }
+
+    .content {
+        position: absolute;
+        top: 300px;
+        left: 80px;
+    }
+
+    .logo {
+        padding-top: 175px;
+        padding-left:80px;
+    }
+
+    .content a {
+        text-decoration: none;
+        color: #3fb67a;
+    }
+
+    .button button {
+        background-color: #ff6666;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+  
+        color: #fff;
+        font-family: 'Arial', sans-serif;
+        height: 35px;
+        width: 150px;
+    }
+    .button form {
+        display: inline-block;     
+        vertical-align: top;
+    }
+}
+
