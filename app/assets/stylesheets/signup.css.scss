@@ -1,22 +1,22 @@
 .splash {
-    background: url('/images/girl_1.png') 0 0 no-repeat;
-    width: 1200px;
-    height: 800px;
+    background: url('/images/girl_2.png') 0 0 no-repeat;
+    width: 1400px;
+    height: 1000px;
     position: relative;
-    z-index: -900;
     font-family:'Bitter', serif;
-    font-size: 18px;
+    font-size: 20px;
+    color:#fff;
 
-    form {
+    .button_1 {
         position: absolute;
         right: 100px;
-        bottom: 100px;
+        bottom: 150px;
     }
 
     .content {
         position: absolute;
-        top: 300px;
-        left: 80px;
+        top: 280px;
+        left: 88px;
     }
 
     .logo {
@@ -24,13 +24,68 @@
         padding-left:80px;
     }
 
-    .content a {
+    .content #girls a{
         text-decoration: none;
-        color: #3fb67a;
+        color:#fff;
+        text-transform: uppercase;
+        margin-top: 1px;
+        display: inline-block;
     }
 
-    .button button {
-        background-color: #ff6666;
+    .content #girls p {
+        margin-top: 210px;
+        font-size: 15px;
+        margin-left: 0px;
+    }
+
+    .content #girls ul li {
+        list-style-type: none;
+        margin-right:100px;
+        margin-left:50px;
+    }
+
+    .content #girls ul li a:hover {
+        font-size:110%;
+    }
+
+    .content #girls ul li #marriel {
+        display: inline-block; 
+        float: right;
+    }
+
+    .content #girls ul li #kate {
+        float: left;
+    }
+
+
+    .box{
+        height:115px;
+        width:480px;
+        background: #810040;
+        margin-top:150px;
+        opacity:0.5;
+        margin-left: 60px;
+        margin-top: 260px;
+
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+    }
+
+    .button_1 button {
+        background-color: #810040;
         cursor: pointer;
         display: inline-block;
         vertical-align: top;
@@ -51,13 +106,201 @@
         transition: all 0.5s ease-in-out;
   
         color: #fff;
-        font-family: 'Arial', sans-serif;
+        font-family:'Bitter', serif;
+        font-size: 18px;
         height: 35px;
         width: 150px;
+
     }
-    .button form {
-        display: inline-block;     
-        vertical-align: top;
+    
+
+    .button_1 form #field {
+        margin-bottom:20px;
+        height: 35px;
+        width: 143px;
+        opacity:0.6;
     }
+
 }
 
+.marriel {
+    background: url('/images/Marriel-1.png')no-repeat center;
+    width: 1400px;
+    height: 1400px;
+    font-family:'Bitter', serif;
+    font-size: 20px;
+    color:#fff;
+    background-color: #3fb67a;
+
+}
+.marriel #response {
+    margin-left: 600px;
+    padding:50px;
+    padding-top:1225px;
+}
+
+.marriel #comment{
+    position: absolute;
+    margin-top: 1155px;
+    margin-left: 250px;
+
+}
+
+.marriel #comment input {
+    height: 100px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.kate {
+    background: url('/images/kate_sheila.png')no-repeat center;
+    width: 1400px;
+    height: 1200px;
+    font-family:'Bitter', serif;
+    font-size: 20px;
+    color:#fff;
+    background-color: #3fb67a;
+}
+.kate #response {
+    margin-left: 290px;
+    padding:50px;
+    padding-top:980px;
+    padding-left: 340px ;
+}
+
+.kate #comment{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 260px;
+
+}
+
+.kate #comment input {
+    height: 100px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.marriel #response a button {
+     background-color: #810040;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+  
+        color: #fff;
+        font-family:'Bitter', serif;
+        text-transform: uppercase;
+        font-size: 13px;
+        height: 25px;
+        width: 80px;
+        margin-right: 40px;
+}    
+
+.marriel #comment button {
+       background-color: #810040;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: bottom;
+        float: left;
+
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+  
+        color: #fff;
+        font-family:'Bitter', serif;
+        text-transform: uppercase;
+        font-size: 13px;
+        height: 25px;
+        width: 80px;
+        margin-right: 60px;
+        margin-top: 20px;
+}
+
+.kate #response a button {
+     background-color: #810040;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+  
+        color: #fff;
+        font-family:'Bitter', serif;
+        text-transform: uppercase;
+        font-size: 13px;
+        height: 25px;
+        width: 80px;
+        margin-right: 70px;
+}    
+
+.kate #comment button {
+       background-color: #810040;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: bottom;
+        float: left;
+
+        -webkit-border-radius: 4px;
+        -moz-border-radius: 4px;
+        -o-border-radius: 4px;
+        border-radius: 4px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+  
+        color: #fff;
+        font-family:'Bitter', serif;
+        text-transform: uppercase;
+        font-size: 13px;
+        height: 25px;
+        width: 80px;
+        margin-right: 60px;
+        margin-top: 20px;
+}

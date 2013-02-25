@@ -7,6 +7,10 @@ RailsPrelaunchSignup::Application.routes.draw do
   resources :users
 
   match "/kate" => "people#kate"
+  match "/marriel" => "people#marriel"
   match "/signup" => "signup#signup"
+  match "/comments" => "people#comments"
+  match "/yes" => "people#yes"
+  match "/no" => "people#no"
 
 end
