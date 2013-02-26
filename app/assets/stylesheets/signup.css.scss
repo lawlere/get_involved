@@ -1,8 +1,8 @@
 .splash {
     background: url('/images/girl_2.png') 0 0 no-repeat;
+    position: relative;
     width: 1400px;
     height: 1000px;
-    position: relative;
     font-family:'Bitter', serif;
     font-size: 20px;
     color:#fff;
@@ -10,7 +10,13 @@
     .button_1 {
         position: absolute;
         right: 100px;
-        bottom: 150px;
+        margin-top: -100px;        
+        padding-right: 60px;
+
+    }
+
+    .button_1 #field {
+        margin-bottom: 18px;
     }
 
     .content {
@@ -115,10 +121,9 @@
     
 
     .button_1 form #field {
-        margin-bottom:20px;
         height: 35px;
         width: 143px;
-        opacity:0.6;
+        opacity:0.6;   
     }
 
 }
@@ -304,3 +309,39 @@
         margin-right: 60px;
         margin-top: 20px;
 }
+// Thank you for signing up (homepage)
+
+.thanks {
+    background: url('/images/girl_2.png') 0 0 no-repeat;
+    position: absolute;
+    width: 1800px;
+    height: 1000px;
+    font-family:'Bitter', serif;
+    font-size: 12px;
+    color: #3fb67a;
+    padding-top: 260px;
+    padding-left: 20px;
+    }
+
+    h2 {
+        padding-left:220px;
+    }
+
+ //Thank you (marriel and kate feedback)
+
+ .thank_you {
+    background: url('/images/girl_2.png') 0 0 no-repeat;
+    position: absolute;
+    width: 1800px;
+    height: 1000px;
+    font-family:'Bitter', serif;
+    font-size: 12px;
+    color: #3fb67a;
+    padding-top: 260px;
+    padding-left: 75px;
+    }
+
+    h2 {
+        padding-left:130px;
+ }
+
