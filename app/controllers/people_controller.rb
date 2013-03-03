@@ -6,6 +6,7 @@ class PeopleController < ApplicationController
 	end
 
 	def comments 
+		puts "Am I here"
 		Comment.create(text: params[:comments])
 		render "thankyou"
 	end 

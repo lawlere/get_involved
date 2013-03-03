@@ -12,5 +12,7 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/comments" => "people#comments"
   match "/yes" => "people#yes"
   match "/no" => "people#no"
+  match "/about" => "home#about"
+  match "/contact" => "home#contact"
 
 end

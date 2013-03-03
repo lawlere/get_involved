@@ -9,9 +9,8 @@
 
     .button_1 {
         position: absolute;
-        right: 100px;
-        margin-top: -100px;        
-        padding-right: 60px;
+        left: 86px;
+        padding-top:200px;
 
     }
 
@@ -26,80 +25,25 @@
     }
 
     .logo {
-        padding-top: 175px;
-        padding-left:80px;
+        padding-top: 120px;
+        padding-left:85px;
     }
 
-    .content #girls a{
-        text-decoration: none;
-        color:#fff;
-        text-transform: uppercase;
-        margin-top: 1px;
-        display: inline-block;
-    }
-
-    .content #girls p {
-        margin-top: 210px;
-        font-size: 15px;
-        margin-left: 0px;
-    }
-
-    .content #girls ul li {
-        list-style-type: none;
-        margin-right:100px;
-        margin-left:50px;
-    }
-
-    .content #girls ul li a:hover {
-        font-size:110%;
-    }
-
-    .content #girls ul li #marriel {
-        display: inline-block; 
-        float: right;
-    }
-
-    .content #girls ul li #kate {
-        float: left;
-    }
-
-
-    .box{
-        height:115px;
-        width:480px;
-        background: #810040;
-        margin-top:150px;
-        opacity:0.5;
-        margin-left: 60px;
-        margin-top: 260px;
-
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-
-  
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
+    .logo img {
+        width: 430px;
+        height: 105px;
     }
 
     .button_1 button {
-        background-color: #810040;
+        background-color: #3fb67a;
         cursor: pointer;
         display: inline-block;
         vertical-align: top;
 
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
 
         -webkit-box-shadow: 2px 2px 5px #888;
         -moz-box-shadow: 2px 2px 5px #888;
@@ -111,19 +55,25 @@
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
   
-        color: #fff;
+        color: #202020;
         font-family:'Bitter', serif;
         font-size: 18px;
+        font-weight:bold;
         height: 35px;
-        width: 150px;
+        width: 155px;
 
     }
     
 
     .button_1 form #field {
         height: 35px;
-        width: 143px;
-        opacity:0.6;   
+        width: 148px;
+        opacity:0.6;
+
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;   
     }
 
 }
@@ -136,12 +86,11 @@
     font-size: 20px;
     color:#fff;
     background-color: #3fb67a;
-
 }
 .marriel #response {
     margin-left: 600px;
     padding:50px;
-    padding-top:1225px;
+    padding-top:1090px;
 }
 
 .marriel #comment{
@@ -160,7 +109,7 @@
 .kate {
     background: url('/images/kate_sheila.png')no-repeat center;
     width: 1400px;
-    height: 1200px;
+    height: 1300px;
     font-family:'Bitter', serif;
     font-size: 20px;
     color:#fff;
@@ -168,9 +117,8 @@
 }
 .kate #response {
     margin-left: 290px;
-    padding:50px;
-    padding-top:980px;
-    padding-left: 340px ;
+    padding-top:930px;
+    padding-left: 330px ;
 }
 
 .kate #comment{
@@ -183,19 +131,20 @@
 .kate #comment input {
     height: 100px;
     width: 250px;
-    margin-right: 10px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .marriel #response a button {
-     background-color: #810040;
+     background-color: #3fb67a;
         cursor: pointer;
         display: inline-block;
         vertical-align: top;
 
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
 
         -webkit-box-shadow: 2px 2px 5px #888;
         -moz-box-shadow: 2px 2px 5px #888;
@@ -207,7 +156,7 @@
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
   
-        color: #fff;
+        color: #000;
         font-family:'Bitter', serif;
         text-transform: uppercase;
         font-size: 13px;
@@ -217,16 +166,16 @@
 }    
 
 .marriel #comment button {
-       background-color: #810040;
+       background-color: #3fb67a;
         cursor: pointer;
         display: inline-block;
         vertical-align: bottom;
         float: left;
 
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
 
         -webkit-box-shadow: 2px 2px 5px #888;
         -moz-box-shadow: 2px 2px 5px #888;
@@ -238,7 +187,7 @@
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
   
-        color: #fff;
+        color: #000;
         font-family:'Bitter', serif;
         text-transform: uppercase;
         font-size: 13px;
@@ -249,15 +198,15 @@
 }
 
 .kate #response a button {
-     background-color: #810040;
+     background-color: #3fb67a;
         cursor: pointer;
         display: inline-block;
         vertical-align: top;
 
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
 
         -webkit-box-shadow: 2px 2px 5px #888;
         -moz-box-shadow: 2px 2px 5px #888;
@@ -269,7 +218,7 @@
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
   
-        color: #fff;
+        color: #000;
         font-family:'Bitter', serif;
         text-transform: uppercase;
         font-size: 13px;
@@ -279,16 +228,17 @@
 }    
 
 .kate #comment button {
-       background-color: #810040;
+       background-color: #3fb67a;
         cursor: pointer;
         display: inline-block;
         vertical-align: bottom;
         float: left;
+        margin-left: 20px;
 
-        -webkit-border-radius: 4px;
-        -moz-border-radius: 4px;
-        -o-border-radius: 4px;
-        border-radius: 4px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
 
         -webkit-box-shadow: 2px 2px 5px #888;
         -moz-box-shadow: 2px 2px 5px #888;
@@ -300,7 +250,7 @@
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
   
-        color: #fff;
+        color: #000;
         font-family:'Bitter', serif;
         text-transform: uppercase;
         font-size: 13px;
@@ -344,4 +294,85 @@
     h2 {
         padding-left:130px;
  }
+
+.top_nav {
+    position: relative;
+    width: 1400px;
+    height: 50px;
+    font-family:'Bitter', serif;
+    font-size: 20px;
+    font-color:#fff;
+    background-color:#303030;
+}
+
+    #navbar  {
+        margin: 0;
+        padding: 0;
+        height: 1em; 
+        margin-left: 45px;
+    }
+    #navbar  li {
+        list-style: none;
+        float: left; 
+        margin-right: 4px;
+        margin-left: 75px;
+        margin-top: 10px;
+    }
+
+    #navbar  li a {
+        display: block;
+        padding: 3px 8px;
+        background-color: inherit;
+        color:  #fff ;
+        text-decoration: none; 
+    }
+
+    #navbar  li ul {
+        display: none; 
+        width: 10em; /* Width to help Opera out */
+        background-color: inherit;
+    }
+
+    #navbar  li:hover ul {
+        display: block;
+        position: absolute;
+        margin: 0;
+        padding: 0; 
+    }
+    #navbar  li:hover li {
+        float: none; 
+    }
+    #navbar  li:hover li a {
+        background-color: inherit;
+        border-bottom: 1px solid  #fff ;
+        color: #fff;
+    }
+
+    #navbar  li li a:hover {
+        background-color: inherit; 
+        font-size:110%;
+    }
+
+//about page styling
+.about h2 {
+    text-indent: none;
+    position: top left;
+    padding-right: 2000px;
+    font-color: red;
+}
+
+.about #logologo img {
+    width:40px;
+    height:40px;
+    margin-left: -850px;
+    margin-top: -15px;
+}
+
+//contact page 
+.contact {
+    
+}
+
+    
+    
 
