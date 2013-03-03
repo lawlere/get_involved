@@ -5,5 +5,8 @@ class HomeController < ApplicationController
   
   def about
   end
+
+  def why_donate
+  end 
  end
 

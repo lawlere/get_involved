@@ -14,5 +14,6 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/no" => "people#no"
   match "/about" => "home#about"
   match "/contact" => "home#contact"
+  match "/why_donate" => "home#why_donate"
 
 end
