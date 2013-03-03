@@ -8,5 +8,8 @@ class HomeController < ApplicationController
 
   def why_donate
   end 
+
+  def blog
+  end	
  end
 

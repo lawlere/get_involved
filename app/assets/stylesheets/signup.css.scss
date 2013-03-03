@@ -1,11 +1,12 @@
+//home page 
 .splash {
     background: url('/images/girl_2.png') 0 0 no-repeat;
     position: relative;
     width: 1400px;
     height: 1000px;
-    font-family:'Bitter', serif;
-    font-size: 20px;
-    color:#fff;
+    color: #fff;
+    font-weight: lighter;
+    margin-top: -8px;
 
     .button_1 {
         position: absolute;
@@ -22,6 +23,9 @@
         position: absolute;
         top: 280px;
         left: 88px;
+        font-family: 'Droid Sans', sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
     }
 
     .logo {
@@ -30,12 +34,12 @@
     }
 
     .logo img {
-        width: 430px;
-        height: 105px;
+        width: 450px;
+        height: 13  0px;
     }
 
     .button_1 button {
-        background-color: #3fb67a;
+        background-color: #ba1a63;
         cursor: pointer;
         display: inline-block;
         vertical-align: top;
@@ -56,7 +60,7 @@
         transition: all 0.5s ease-in-out;
   
         color: #202020;
-        font-family:'Bitter', serif;
+        font-family:'Droid Sans', sans-serif;
         font-size: 18px;
         font-weight:bold;
         height: 35px;
@@ -77,6 +81,7 @@
     }
 
 }
+//Marriel's page 
 
 .marriel {
     background: url('/images/Marriel-1.png')no-repeat center;
@@ -84,13 +89,13 @@
     height: 1400px;
     font-family:'Bitter', serif;
     font-size: 20px;
-    color:#fff;
+    color: #fff;
     background-color: #3fb67a;
 }
 .marriel #response {
     margin-left: 600px;
-    padding:50px;
-    padding-top:1090px;
+    padding: 50px;
+    padding-top: 1090px;
 }
 
 .marriel #comment{
@@ -105,36 +110,6 @@
     width: 250px;
     margin-right: 10px;
 }
-
-.kate {
-    background: url('/images/kate_sheila.png')no-repeat center;
-    width: 1400px;
-    height: 1300px;
-    font-family:'Bitter', serif;
-    font-size: 20px;
-    color:#fff;
-    background-color: #3fb67a;
-}
-.kate #response {
-    margin-left: 290px;
-    padding-top:930px;
-    padding-left: 330px ;
-}
-
-.kate #comment{
-    position: absolute;
-    margin-top: 900px;
-    margin-left: 260px;
-
-}
-
-.kate #comment input {
-    height: 100px;
-    width: 250px;
-    margin-left: 20px;
-    margin-top: 10px;
-}
-
 .marriel #response a button {
      background-color: #3fb67a;
         cursor: pointer;
@@ -195,6 +170,37 @@
         width: 80px;
         margin-right: 60px;
         margin-top: 20px;
+}
+
+//Kate's page 
+
+.kate {
+    background: url('/images/kate_sheila.png')no-repeat center;
+    width: 1400px;
+    height: 1400px;
+    font-family:'Bitter', serif;
+    font-size: 20px;
+    color:#fff;
+    background-color: #3fb67a;
+}
+.kate #response {
+    margin-left: 290px;
+    padding-top:930px;
+    padding-left: 330px ;
+}
+
+.kate #comment{
+    position: absolute;
+    margin-top: 900px;
+    margin-left: 260px;
+
+}
+
+.kate #comment input {
+    height: 100px;
+    width: 250px;
+    margin-left: 20px;
+    margin-top: 10px;
 }
 
 .kate #response a button {
@@ -259,13 +265,13 @@
         margin-right: 60px;
         margin-top: 20px;
 }
-// Thank you for signing up (homepage)
+// Thank you for signing up (with email)
 
 .thanks {
     background: url('/images/girl_2.png') 0 0 no-repeat;
     position: absolute;
-    width: 1800px;
-    height: 1000px;
+    width: 1400px;
+    height: 1400px;
     font-family:'Bitter', serif;
     font-size: 12px;
     color: #3fb67a;
@@ -282,8 +288,8 @@
  .thank_you {
     background: url('/images/girl_2.png') 0 0 no-repeat;
     position: absolute;
-    width: 1800px;
-    height: 1000px;
+    width: 1400px;
+    height: 1400px;
     font-family:'Bitter', serif;
     font-size: 12px;
     color: #3fb67a;
@@ -295,9 +301,11 @@
         padding-left:130px;
  }
 
+ //top nav bar 
+
 .top_nav {
-    position: relative;
-    width: 1400px;
+    position: absolute;
+    width: 1800px;
     height: 50px;
     font-family:'Bitter', serif;
     font-size: 20px;
@@ -353,26 +361,63 @@
         font-size:110%;
     }
 
-//about page styling
-.about h2 {
+//about page 
+.about {
+    margin-left: 40px;
+    font-family: 'Droid Sans', sans-serif;
+    font-color: #100000;
+    font-weight: lighter;
+    margin-top: -3px;
+    padding-bottom: 100px;
+}
+    h1 {
     text-indent: none;
-    position: top left;
-    padding-right: 2000px;
-    font-color: red;
+    position: relative left;
+    border-top: 1px solid #000;
+    padding-top: 35px;
+    font-size: 25px 
 }
 
-.about #logologo img {
-    width:40px;
-    height:40px;
-    margin-left: -850px;
-    margin-top: -15px;
+    #logologo img {
+    position: relative;
+    width:300px;
+    height:100px;
+    margin-right: 2500px;
+    padding-bottom: 20px; 
+    margin-top: 20px;
 }
+
+    h3  {
+    padding-top: 45px;
+    font-size: 25px;        
+    }
 
 //contact page 
 .contact {
     
 }
 
+//blog page
+.blog {
+    border-bottom: 1px solid #000;
+    padding-left: 30px;
+    margin-top: -8px;
+}
+
+//why donate page
+.why {
+    border-top: 1px solid #000;
+} 
+    h4 {
+        position: relative;
+        font-size: 16px;
+        margin-left: 30px;
+        margin-top: 45px;
+    }  
+
     
+
+   
+
     
 

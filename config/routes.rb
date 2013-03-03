@@ -6,6 +6,7 @@ RailsPrelaunchSignup::Application.routes.draw do
   devise_for :users
   resources :users
 
+  match "/home" => "home#index"
   match "/kate" => "people#kate"
   match "/marriel" => "people#marriel"
   match "/signup" => "signup#signup"
@@ -15,5 +16,6 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/about" => "home#about"
   match "/contact" => "home#contact"
   match "/why_donate" => "home#why_donate"
+  match "/blog" => "home#blog"
 
 end
