@@ -24115,3 +24115,549 @@ Processing by PeopleController#yes as HTML
   [1m[35m (2.3ms)[0m  commit transaction
   Rendered people/thankyou.html.erb within layouts/application (0.0ms)
 Completed 200 OK in 12ms (Views: 7.7ms | ActiveRecord: 2.7ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 08:45:01 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered home/index.html.erb within layouts/application (4.5ms)
+Compiled application.css  (77ms)  (pid 825)
+Compiled application.js  (44ms)  (pid 825)
+Completed 200 OK in 291ms (Views: 218.5ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 08:45:06 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered people/marriel.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 08:45:12 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 08:45:16 -0700
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 10.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-04 08:45:20 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered home/why_donate.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:45:22 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:50:17 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:52:09 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (49ms)  (pid 825)
+Completed 200 OK in 128ms (Views: 128.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-04 08:53:09 -0700
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:54:06 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.3ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:54:34 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 83ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 08:55:54 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered people/marriel.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 33ms (Views: 32.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 08:55:57 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:56:02 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:56:17 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 82ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:56:36 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 08:56:44 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 82ms (Views: 82.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:00:08 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (4ms)  (pid 825)
+Completed 200 OK in 108ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:03:21 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (87ms)  (pid 825)
+Compiled application.css  (26ms)  (pid 825)
+Completed 200 OK in 170ms (Views: 169.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:08:32 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 33ms (Views: 32.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:10:05 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.3ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 83ms (Views: 83.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:10:34 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (55ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 80ms (Views: 80.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:11:08 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (55ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 80ms (Views: 80.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:11:20 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (55ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 81ms (Views: 80.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:11:30 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (55ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 81ms (Views: 81.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:11:46 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 82ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:12:01 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (55ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 81ms (Views: 80.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 09:12:13 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 113ms (Views: 111.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:12:16 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:12:24 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 83ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:12:33 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 82ms (Views: 82.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:12:41 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:13:10 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (55ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 107ms (Views: 106.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:13:24 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:13:30 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 82ms (Views: 81.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:13:37 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 81ms (Views: 80.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:13:44 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (56ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 82ms (Views: 81.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:13:51 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:14:05 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (70ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 123ms (Views: 123.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:14:09 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:14:16 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (57ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 108ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:14:18 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 34.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 09:14:24 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered people/marriel.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 09:15:51 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered people/marriel.html.erb within layouts/application (0.3ms)
+Compiled signup.css  (82ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 109ms (Views: 108.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 09:16:16 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered people/marriel.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (78ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 132ms (Views: 132.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-04 09:16:28 -0700
+Processing by HomeController#blog as HTML
+  Rendered home/blog.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 16ms (Views: 15.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-04 09:17:40 -0700
+Processing by HomeController#blog as HTML
+  Rendered home/blog.html.erb within layouts/application (0.3ms)
+Compiled signup.css  (60ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 86ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:17:48 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 09:17:50 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered people/marriel.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:17:53 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-04 09:17:55 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered home/why_donate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-04 09:18:45 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered home/why_donate.html.erb within layouts/application (0.3ms)
+Compiled signup.css  (61ms)  (pid 825)
+Compiled application.css  (17ms)  (pid 825)
+Completed 200 OK in 130ms (Views: 129.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-04 09:19:15 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered home/why_donate.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 09:19:19 -0700
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 35ms (Views: 35.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 09:20:10 -0700
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.3ms)
+Compiled signup.css  (62ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 88ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 09:20:26 -0700
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (60ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 87ms (Views: 86.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 09:20:40 -0700
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (61ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 86ms (Views: 85.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 09:20:47 -0700
+Processing by HomeController#about as HTML
+  Rendered home/about.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-04 09:20:48 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered home/why_donate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 09:20:49 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered people/marriel.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 09:20:51 -0700
+Processing by HomeController#contact as HTML
+  Rendered home/contact.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:20:54 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:21:42 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (65ms)  (pid 825)
+Compiled application.css  (19ms)  (pid 825)
+Completed 200 OK in 159ms (Views: 158.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:22:45 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (64ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 90ms (Views: 90.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:23:04 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (62ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 89ms (Views: 88.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:23:24 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (61ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 87ms (Views: 86.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:23:38 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (61ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 87ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:23:47 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (61ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 88ms (Views: 87.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:24:11 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (62ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 113ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:24:31 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (62ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 115ms (Views: 114.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:24:56 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (62ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 114ms (Views: 114.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:25:11 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (61ms)  (pid 825)
+Compiled application.css  (4ms)  (pid 825)
+Completed 200 OK in 116ms (Views: 115.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:25:19 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (61ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 113ms (Views: 113.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:25:48 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (63ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 116ms (Views: 116.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-04 09:26:32 -0700
+Processing by PeopleController#kate as HTML
+  Rendered people/kate.html.erb within layouts/application (0.0ms)
+Compiled signup.css  (62ms)  (pid 825)
+Compiled application.css  (3ms)  (pid 825)
+Completed 200 OK in 112ms (Views: 112.2ms | ActiveRecord: 0.0ms)
