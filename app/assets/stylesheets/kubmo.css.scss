@@ -1,0 +1,69 @@
+.top_nav {
+	
+	ul {
+		display: inline-block;
+		width: 100%;
+		height: 50px;
+		background-color:#404041;
+	}
+
+	li {
+		float: left;
+		margin-left: 50px;
+	}
+
+	a {
+		margin: 20px;
+		color: white;
+		text-decoration: none;
+		font-family: 'Bitter', serif;
+	}
+
+	li a {
+        display: block;
+        background-color: inherit;
+        color:  #fff ;
+    }
+
+    li ul {
+        display: none; 
+        width: 10em; /* Width to help Opera out */
+        background-color: inherit;
+    }
+    
+    li:hover li {
+        float: none; 
+        margin-top: 1px;
+    }
+    
+    li:hover li a {
+        background-color: #404041;
+        border-bottom: 1px solid  #fff ;
+        color: #fff;
+    }
+
+    li li a:hover {
+        font-size:110%;
+        color: #ba1a63;
+        text-decoration: none; 
+    }
+
+    #facebook {
+    	margin: 10px;
+    }
+
+    #twitter {
+    	margin: 10px;
+    }
+
+    #mail {
+    	margin: 10px;
+    }
+}
+
+.splash
+
+	.logo img {
+		width: 400px;
+		margin-left: 65px;
+	}

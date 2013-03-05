@@ -2,6 +2,7 @@
 <html>
   <head>
     <title>Kubmo</title>
+    <link rel="stylesheet" type="text/css" href="/assets/reset.css">
     <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
     
@@ -11,7 +12,59 @@
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
   </head>
+  <div class="top_nav">
+    <ul id="navbar">
+      <li>
+        <a href="about">about us</a>
+      </li>
+
+      <li>
+        <a href="why_donate">why donate</a>
+      </li>
+      
+      <li>
+        <a href="marriel">fund a device</a>
+        <ul>
+          <li>
+            <a href="/marriel" class="call-to-action">Marriel</a>
+          </li>
+
+          <li>
+            <a href="/kate" class="call-to-action">Kate</a>
+          </li>
+        </ul>
+      </li>
+
+      <li>
+        <a id="contact" href="/contact" class="call-to-action">contact us</a>
+      </li>
+
+      <li>
+        <a id="blog" href="/blog" class="call-to-action">blog</a>
+      </li>  
+
+      <li>
+        <a id="facebook" href="https://www.facebook.com/pages/Kubmo/502648673114461">
+          <img src="/images/facebook.png" />
+        </a>
+      </li>
+      
+      <li>
+        <a id="twitter" href="https://twitter.com/Kubmo">
+          <img src="/images/twitter.png" />
+        </a>
+      </li>
+      <li>
+        <a id="mail" href="mailto:kubmoteam@gmail.com?subject=Hello Kubmo">
+          <img src="/images/email.png"/>
+        </a>
+      </li>
+    </ul>
+ </div>
+
   <body class="<%= controller_name %> <%= action_name %> contain">
     <%= yield %>      
   </body>
 </html>
+
+
