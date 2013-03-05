@@ -28542,3 +28542,141 @@ Processing by HomeController#why_donate as HTML
   Rendered shared/_kubmo_logo.html.erb (0.0ms)
   Rendered home/why_donate.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-04 22:22:42 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered home/index.html.erb within layouts/application (16.6ms)
+Completed 200 OK in 273ms (Views: 203.0ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 22:22:52 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.3ms)
+  Rendered home/about.html.erb within layouts/application (18.4ms)
+Completed 200 OK in 27ms (Views: 26.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-04 22:22:53 -0700
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered home/index.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 22:22:56 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 22:23:41 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 22:23:42 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 23:06:40 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.3ms)
+  Rendered home/about.html.erb within layouts/application (23.9ms)
+Completed 200 OK in 153ms (Views: 152.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-04 23:07:11 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered home/index.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 101ms (Views: 7.9ms | ActiveRecord: 2.5ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-04 23:09:16 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 31ms (Views: 30.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-04 23:09:40 -0700
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-04 23:10:15 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-04 23:11:59 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/why_donate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-04 23:17:26 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/why_donate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-04 23:20:05 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 51ms (Views: 50.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-04 23:20:12 -0700
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 23:24:57 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 23:25:52 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-04 23:25:53 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-04 23:25:59 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)

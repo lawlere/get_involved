@@ -386,9 +386,6 @@
         padding: 3px 8px;
         background-color: inherit;
         color:  #fff ;
-        text-decoration: none; 
-    }
-
     #navbar  li ul {
         display: none; 
         width: 10em; /* Width to help Opera out */
@@ -415,8 +412,10 @@
     #navbar  li li a:hover {
         font-size:110%;
         color: #ba1a63;
-        padding: 10px;
+    }     text-decoration: none; 
     }
+
+   
 
 //about page 
 .about {
