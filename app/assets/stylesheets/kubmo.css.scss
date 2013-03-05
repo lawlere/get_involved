@@ -60,10 +60,149 @@
     	margin: 10px;
     }
 }
+#kubmo_logo {
+	width: 400px;
+	margin-left: 65px;
+    margin-top: 15px;
+    position: relative;
+    margin-top: 150px;
+}
 
-.splash
+#click {
+    position: relative;
+    margin-top: 200px;
+    margin-left: -158px;
 
-	.logo img {
-		width: 400px;
-		margin-left: 65px;
-	}
+
+    background-color: #ba1a63;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+    color: #202020;
+    font-family:Bitter;
+    font-size: 18px;
+    font-weight:bold;
+    height: 35px;
+    width: 155px;
+}
+
+#field {
+        height: 35px;
+        width: 148px;
+        opacity:0.6;
+        margin-left: 65px;
+        margin-top: 150px;
+
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;   
+    }
+
+#mission {
+    position: relative;
+    font-family: bitter;
+    color: white;
+    margin-left: 65px;
+    margin-top: 30px;
+}
+
+#background_image img {
+    width: 100%;
+    position: absolute;
+}
+
+// about page
+
+#kubmo_logo_2 {
+    margin-left: 65px;
+    margin-top: 15px;
+}
+
+#kubmo_logo_2 #line {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #000000;
+    margin-right: 180px;
+    margin-top: 15px;
+}
+
+#problem {
+    width: 940px;
+    margin-top: 30px;
+    margin-left: 65px;
+}
+
+#problem h1 {
+    font-family: bitter;
+    font-weight: bold;
+}
+
+#problem p {
+    margin-top: 15px;
+    font-family: myriad pro;
+}
+
+#solution {
+    width: 940px;
+    margin-top: 30px;
+    margin-left: 65px; 
+}
+
+#solution h1 {
+    font-family: bitter;
+    font-weight: bold;
+}
+
+#solution p {
+    margin-top: 15px;
+    font-family: myriad pro;
+}
+
+//why donate
+
+#why_donate {
+    margin-left: 65px;
+    margin-top: 30px;
+    font-family: myriad pro;
+    margin-bottom: 100px;
+}
+
+#quote {
+    color: #ba1a63;
+}
+
+#why_donate h1 {
+    font-family: bitter;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+#why_donate li {
+    margin-right: 180px;
+    list-style-type: circle;
+    margin-left: 30px;
+    padding-top: 8px;
+}
+
+
+
+
+
