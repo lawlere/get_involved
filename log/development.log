@@ -36421,3 +36421,287 @@ Processing by HomeController#blog as HTML
   Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
   Rendered home/blog.html.erb within layouts/application (0.4ms)
 Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-06 12:13:59 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (26.5ms)
+Compiled kubmo.css  (179ms)  (pid 21989)
+Compiled application.css  (36ms)  (pid 21989)
+Completed 200 OK in 650ms (Views: 566.4ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-03-06 12:14:03 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (28.5ms)
+  Rendered home/about.html.erb within layouts/application (42.5ms)
+Completed 200 OK in 77ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-06 12:14:07 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered home/why_donate.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 31ms (Views: 30.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-06 12:14:10 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered people/marriel.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 33ms (Views: 32.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-06 12:14:14 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 17ms (Views: 17.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:14:16 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 13ms (Views: 12.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:14:19 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 9.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:16:19 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered home/blog.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 76ms (Views: 76.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:17:05 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.8ms)
+Compiled kubmo.css  (356ms)  (pid 21989)
+Compiled application.css  (38ms)  (pid 21989)
+Completed 200 OK in 546ms (Views: 545.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:17:34 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered home/blog.html.erb within layouts/application (10.4ms)
+Completed 200 OK in 76ms (Views: 75.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:19:09 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.8ms)
+Compiled kubmo.css  (74ms)  (pid 21989)
+Compiled application.css  (6ms)  (pid 21989)
+Completed 200 OK in 179ms (Views: 178.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:19:19 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (54ms)  (pid 21989)
+Compiled application.css  (4ms)  (pid 21989)
+Completed 200 OK in 81ms (Views: 80.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:19:32 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (1.0ms)
+Compiled kubmo.css  (73ms)  (pid 21989)
+Compiled application.css  (4ms)  (pid 21989)
+Completed 200 OK in 104ms (Views: 103.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-03-06 12:30:14 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered home/blog.html.erb within layouts/application (9.5ms)
+Compiled kubmo.css  (92ms)  (pid 21989)
+Compiled application.css  (27ms)  (pid 21989)
+Completed 200 OK in 273ms (Views: 272.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:30:38 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:32:20 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (9.3ms)
+Compiled kubmo.css  (68ms)  (pid 21989)
+Compiled application.css  (23ms)  (pid 21989)
+Completed 200 OK in 195ms (Views: 195.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-06 12:32:22 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 30ms (Views: 29.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-06 12:32:24 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:32:25 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:33:26 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (80ms)  (pid 21989)
+Compiled application.css  (18ms)  (pid 21989)
+Completed 200 OK in 150ms (Views: 149.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-06 12:33:29 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/why_donate.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 25ms (Views: 25.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:33:33 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:33:51 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (55ms)  (pid 21989)
+Compiled application.css  (4ms)  (pid 21989)
+Completed 200 OK in 83ms (Views: 82.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/contact" for 127.0.0.1 at 2013-03-06 12:34:04 -0700
+Processing by HomeController#contact as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/contact.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (55ms)  (pid 21989)
+Compiled application.css  (3ms)  (pid 21989)
+Completed 200 OK in 83ms (Views: 82.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-06 12:34:06 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/why_donate.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-06 12:34:53 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/why_donate.html.erb within layouts/application (0.5ms)
+Completed 500 Internal Server Error in 113ms
+
+ActionView::Template::Error (Invalid CSS after "    a: hover a": expected ";", was ":active {"
+  (in /Users/BDW_MBP/kubmo/get_involved/app/assets/stylesheets/kubmo.css.scss)):
+    7:     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
+    8:     
+    9:     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    10:     <%= stylesheet_link_tag "application", :media => "all" %>
+    11:     <%= javascript_include_tag "application" %>
+    12:     <%= csrf_meta_tags %>
+    13:     <%= yield(:head) %>
+  app/assets/stylesheets/kubmo.css.scss:26
+  app/views/layouts/application.html.erb:10:in `_app_views_layouts_application_html_erb___3335510953901870810_70324862667840'
+
+
+  Rendered /Users/BDW_MBP/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+  Rendered /Users/BDW_MBP/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/BDW_MBP/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (16.2ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-06 12:35:01 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/why_donate.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (79ms)  (pid 21989)
+Compiled application.css  (4ms)  (pid 21989)
+Completed 200 OK in 123ms (Views: 122.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/why_donate" for 127.0.0.1 at 2013-03-06 12:35:03 -0700
+Processing by HomeController#why_donate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/why_donate.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-06 12:35:45 -0700
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (13.7ms)
+Completed 200 OK in 56ms (Views: 45.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/signup?email=sdfsdfs" for 127.0.0.1 at 2013-03-06 12:35:48 -0700
+Processing by SignupController#signup as HTML
+  Parameters: {"email"=>"sdfsdfs"}
+  [1m[36m (5.6ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (73.4ms)[0m  INSERT INTO "signups" ("created_at", "email", "updated_at") VALUES (?, ?, ?)  [["created_at", Wed, 06 Mar 2013 19:35:49 UTC +00:00], ["email", "sdfsdfs"], ["updated_at", Wed, 06 Mar 2013 19:35:49 UTC +00:00]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered signup/signup.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 167ms (Views: 31.4ms | ActiveRecord: 88.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-06 12:35:53 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/no" for 127.0.0.1 at 2013-03-06 12:35:54 -0700
+Processing by PeopleController#no as HTML
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (12.5ms)[0m  [1mINSERT INTO "responses" ("would_donate") VALUES (?)[0m  [["would_donate", false]]
+  [1m[35m (19.3ms)[0m  commit transaction
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/thankyou.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 83ms (Views: 27.1ms | ActiveRecord: 32.0ms)
+
+
+Started GET "/comments?email=sdfsdf" for 127.0.0.1 at 2013-03-06 12:36:00 -0700
+Processing by PeopleController#comments as HTML
+  Parameters: {"email"=>"sdfsdf"}
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (17.4ms)[0m  INSERT INTO "comments" ("text") VALUES (?)  [["text", nil]]
+  [1m[36m (9.7ms)[0m  [1mcommit transaction[0m
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/thankyou.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 63ms (Views: 8.7ms | ActiveRecord: 27.5ms)
