@@ -35,13 +35,15 @@
 
 <div id="kate_comment">	
 	<form action="/comments">
-		<input name="comments"></input> 
+		<input type="text" id="field" name="email" placeholder="Comment"> 
 		  <button id="kate_button"> Submit </button>
 	</form>	
 </div>	
 <div id="kate_response">
   <p>would you donate?</p>
-  <a href="/yes"> <button> Yes </button> </a>
-  <a href="/no"> <button> No </button> </a>
+  <div id="kate_button"> 
+    <a href="/yes"> <button> Yes </button> </a>
+    <a href="/no"> <button> No </button> </a>
+  </div>
 </div>
 		
