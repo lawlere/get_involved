@@ -217,9 +217,6 @@
     padding-top: 8px;
 }
 
-//Marriel 
-//Kate 
-
 //Contact
 #contact_page ul {
     margin-left: 65px;
@@ -294,11 +291,101 @@
 //kate
 
 #kate_img {
+    width: 50px;
     margin-left: 65px;
     margin-top: 30px;
     float: left;
     padding-right: 30px;
 }
+
+#comment 
+    
+    button {
+
+        position: fixed;
+        top: 300px;
+        right: 200px;
+
+        background-color: #ba1a63;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+  
+        color: #202020;
+        font-family:Bitter;
+        font-size: 18px;
+        font-weight:bold;
+        height: 35px;
+        width: 155px;
+}
+    
+    form {
+        position: relative;
+        padding-top: -300px;
+        position: fixed;
+        top: 350px;
+        right: 200px;
+}
+
+#response a button {
+    position: fixed;
+    top: 330px;
+
+
+    background-color: #ba1a63;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+    color: #202020;
+    font-family:Bitter;
+    font-size: 18px;
+    font-weight:bold;
+    height: 35px;
+    width: 50px;
+}
+
+
+
+
+//email thank you
+.thanks {
+    margin-left: 65px;
+    padding-top: 45px;
+    font-family: 'Bitter', serif;
+    font-size: 20px; 
+}
+
 
 
      
