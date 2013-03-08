@@ -36705,3 +36705,637 @@ Processing by PeopleController#comments as HTML
   Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
   Rendered people/thankyou.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 63ms (Views: 8.7ms | ActiveRecord: 27.5ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-07 21:11:48 -0700
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (25.5ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.7ms)
+  Rendered home/index.html.erb within layouts/application (63.3ms)
+Compiled kubmo.css  (178ms)  (pid 66571)
+Compiled application.css  (36ms)  (pid 66571)
+Completed 200 OK in 1184ms (Views: 1031.2ms | ActiveRecord: 28.1ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:11:54 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.3ms)
+  Rendered people/marriel.html.erb within layouts/application (8.4ms)
+Completed 200 OK in 17ms (Views: 16.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:11:57 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 18ms (Views: 18.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:12:00 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:12:28 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (30ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:13:02 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (56ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:13:12 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (57ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:13:21 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 108.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:13:42 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (53ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:14:03 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 123ms (Views: 122.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:14:18 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (56ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 110ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:14:23 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (54ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:15:17 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 107.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:15:22 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:15:28 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (53ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 78ms (Views: 78.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:20:54 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered people/marriel.html.erb within layouts/application (10.4ms)
+Compiled kubmo.css  (57ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 110ms (Views: 109.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:21:05 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (111ms)  (pid 66571)
+Compiled application.css  (5ms)  (pid 66571)
+Completed 200 OK in 168ms (Views: 168.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:21:11 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (53ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 80ms (Views: 79.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:21:15 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 12ms (Views: 11.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:21:23 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (103ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 130ms (Views: 130.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:21:47 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (32ms)  (pid 66571)
+Completed 200 OK in 110ms (Views: 110.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:21:55 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (53ms)  (pid 66571)
+Compiled application.css  (31ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 108.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:22:02 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (54ms)  (pid 66571)
+Compiled application.css  (30ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:22:10 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:22:15 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (58ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 82ms (Views: 81.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:22:22 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (54ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 79ms (Views: 79.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:22:31 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (54ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 109ms (Views: 109.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:22:45 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (56ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 80ms (Views: 79.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:22:53 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 84ms (Views: 84.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:23:03 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (54ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 107.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:23:12 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (82ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 112ms (Views: 111.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:23:26 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (90ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 1006ms (Views: 1005.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:23:35 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (81ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:23:49 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (81ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 151ms (Views: 150.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:23:55 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (86ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 112ms (Views: 112.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:23:59 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.8ms)
+Compiled kubmo.css  (88ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 125ms (Views: 125.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:24:05 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (84ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 114ms (Views: 114.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:24:09 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (82ms)  (pid 66571)
+Compiled application.css  (5ms)  (pid 66571)
+Completed 200 OK in 132ms (Views: 132.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:24:13 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (81ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 106.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:24:30 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:24:37 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:25:35 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (84ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 110ms (Views: 110.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:25:50 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (99ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 126ms (Views: 125.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:25:57 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (81ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 106.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:26:27 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (80ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 106ms (Views: 106.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:26:34 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (58ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 117ms (Views: 116.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:26:42 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (56ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 111ms (Views: 111.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:27:25 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 107.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:27:40 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 7.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:28:00 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (58ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 83ms (Views: 82.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:28:05 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (55ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 106.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:28:16 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (80ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 105ms (Views: 105.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:28:20 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (81ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 106.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:28:25 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (82ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 108.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:28:28 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (82ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 199ms (Views: 199.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:28:35 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (80ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 107ms (Views: 106.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:42:13 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (95.2ms)
+Completed 200 OK in 111ms (Views: 110.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:42:40 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:43:19 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (104ms)  (pid 66571)
+Compiled application.css  (25ms)  (pid 66571)
+Completed 200 OK in 273ms (Views: 273.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:43:31 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.8ms)
+Compiled kubmo.css  (84ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 110ms (Views: 109.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:43:45 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (84ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 109ms (Views: 108.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:43:51 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (83ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:44:00 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (82ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 108ms (Views: 107.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:44:03 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:44:29 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (58ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:44:40 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 21:44:41 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 21:44:44 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (29.4ms)
+Completed 200 OK in 37ms (Views: 36.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 22:01:37 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered people/kate.html.erb within layouts/application (32.8ms)
+Completed 200 OK in 46ms (Views: 45.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 22:01:43 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 22:02:12 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (81ms)  (pid 66571)
+Compiled application.css  (12ms)  (pid 66571)
+Completed 200 OK in 167ms (Views: 167.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 22:02:15 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (62ms)  (pid 66571)
+Compiled application.css  (4ms)  (pid 66571)
+Completed 200 OK in 91ms (Views: 91.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/marriel" for 127.0.0.1 at 2013-03-07 22:02:19 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (56ms)  (pid 66571)
+Compiled application.css  (3ms)  (pid 66571)
+Completed 200 OK in 84ms (Views: 83.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-07 22:02:24 -0700
+Processing by PeopleController#kate as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/kate.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
