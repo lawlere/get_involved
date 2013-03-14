@@ -37366,3 +37366,12 @@ Processing by HomeController#index as HTML
   Rendered shared/_kubmo_logo.html.erb (0.1ms)
   Rendered home/index.html.erb within layouts/application (29.3ms)
 Completed 200 OK in 62ms (Views: 61.0ms | ActiveRecord: 0.1ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-14 09:18:40 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (20.5ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (36.0ms)
+Completed 200 OK in 418ms (Views: 341.5ms | ActiveRecord: 22.9ms)
