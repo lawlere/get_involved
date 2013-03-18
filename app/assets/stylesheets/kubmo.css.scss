@@ -64,15 +64,21 @@
     }
 
     #facebook {
-    	margin: 10px;
+        position: relative;
+        margin: 10px;
+        margin-right: -30px;
     }
 
     #twitter {
-    	margin: 10px;
+    	position: relative;
+        margin: 10px;
+        margin-right: -30px;
     }
 
     #mail {
-    	margin: 10px;
+    	position: relative;
+        margin: 10px;
+        margin-right: -30px;
     }
 }
 #kubmo_logo {
@@ -86,7 +92,7 @@
 #click {
     position: relative;
     margin-top: 200px;
-    margin-left: -158px;
+    margin-left: 30px;
 
 
     background-color: #ba1a63;
@@ -131,10 +137,13 @@
 
 #mission {
     position: relative;
-    font-family: bitter;
+    font-family: myriad pro;
+    font-size: 18px;
     color: white;
     margin-left: 65px;
     margin-top: 30px;
+    letter-spacing: 1px;
+    line-height: 25px;
 }
 
 #background_image img {
