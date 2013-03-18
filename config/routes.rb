@@ -13,9 +13,8 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/comments" => "people#comments"
   match "/yes" => "people#yes"
   match "/no" => "people#no"
-  match "/about" => "home#about"
-  match "/contact" => "home#contact"
-  match "/why_donate" => "home#why_donate"
+  match "/About" => "home#about"
   match "/blog" => "home#blog"
+  match "/Donate" => redirect("http://rally.org/kubmo"), :as => :Donate
 
 end

@@ -1,3 +1,4 @@
+// Top Navigation Bar
 .top_nav {
 	
 	ul {
@@ -81,18 +82,36 @@
         margin-right: -30px;
     }
 }
-#kubmo_logo {
-	width: 400px;
-	margin-left: 65px;
-    margin-top: 15px;
+// Landing Page 
+#kubmo_logo img {
+    height: 100px;
+    width: 400px;
     position: relative;
-    margin-top: 150px;
+    margin-left: 105px;
+    margin-top: 230px;
+    z-index: 10;
+}
+
+#box {
+  width: 400px;
+  height: 300px;
+  margin-top: 25px;
+  margin-left: 105px;
+  background-color: #A8A8A8;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  z-index: -999;
+  
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
 }
 
 #click {
     position: relative;
-    margin-top: 200px;
-    margin-left: 30px;
+    margin-top: -110px;
+    margin-left: 130px;
 
 
     background-color: #ba1a63;
@@ -115,35 +134,35 @@
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   
-    color: #202020;
+    color: #fff;
     font-family:Bitter;
     font-size: 18px;
-    font-weight:bold;
     height: 35px;
 }
 
-#field {
-        height: 35px;
-        width: 148px;
-        opacity:0.6;
-        margin-left: 65px;
-        margin-top: 150px;
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;   
-    }
-
 #mission {
-    position: relative;
+    position: absolute;
     font-family: myriad pro;
     font-size: 18px;
     color: white;
-    margin-left: 65px;
-    margin-top: 30px;
     letter-spacing: 1px;
     line-height: 25px;
+    z-index: 10px;
+    margin-left: 150px;
+    margin-top: -275px;
+}
+
+#Meet a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font: myriad pro;
+    font-size: 16px;
+    letter-spacing: .9px;
+    margin-left: 150px;
+    margin-top: -80px;
+    font-weight: lighter;
+
 }
 
 #background_image img {
@@ -198,60 +217,6 @@
     font-family: myriad pro;
 }
 
-//why donate
-
-#why_donate {
-    margin-left: 65px;
-    margin-top: 30px;
-    font-family: myriad pro;
-    margin-bottom: 100px;
-}
-
-#quote {
-    color: #ba1a63;
-}
-
-#why_donate h1 {
-    font-family: bitter;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    font-weight: bold;
-}
-
-#why_donate li {
-    margin-right: 180px;
-    list-style-type: circle;
-    margin-left: 30px;
-    padding-top: 8px;
-}
-
-//Contact
-#contact_page ul {
-    margin-left: 65px;
-    padding-top: 45px;
-    font-family: 'Bitter', serif;
-    font-size: 20px;
-    line-height: 50px;
-    font-weight: lighter;
-    margin-bottom: 150px;
-}
-
-        li {
-            padding-top: 200px;
-        }
-
-        a {
-            text-decoration: none;
-            color: #ba1a63;
-        }
-//Blog
-#blog_content {
-    margin-left: 65px;
-    margin-top: 30px;
-    font-family: myriad pro;
-    margin-bottom: 100px;
-    line-height: 20px;
-}
 
 //marriel
     
