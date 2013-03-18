@@ -40075,3 +40075,1289 @@ Processing by HomeController#index as HTML
   Rendered shared/_kubmo_logo.html.erb (0.1ms)
   Rendered home/index.html.erb within layouts/application (10.2ms)
 Completed 200 OK in 62ms (Views: 60.0ms | ActiveRecord: 0.6ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 14:49:36 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.3ms)
+  Rendered home/index.html.erb within layouts/application (30.4ms)
+Compiled kubmo.css  (160ms)  (pid 32940)
+Compiled application.css  (11ms)  (pid 32940)
+Completed 200 OK in 719ms (Views: 588.8ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/Donate" for 127.0.0.1 at 2013-03-18 14:55:16 -0600
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:19:54 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.5ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (2.5ms)
+Compiled kubmo.css  (222ms)  (pid 32940)
+Compiled application.css  (30ms)  (pid 32940)
+Completed 200 OK in 502ms (Views: 473.5ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:20:17 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 160ms (Views: 159.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:20:50 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:21:01 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:21:31 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (121ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 148ms (Views: 147.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:21:37 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 134ms (Views: 133.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:21:54 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:22:18 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (95ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 124ms (Views: 123.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:22:30 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (102ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 129ms (Views: 128.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:22:47 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (133ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 161ms (Views: 159.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:22:52 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (82ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 137ms (Views: 135.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:23:13 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (127ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 154ms (Views: 153.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:23:30 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (94ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 121ms (Views: 120.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:23:43 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 132ms (Views: 131.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:23:49 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (30ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:24:04 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Compiled kubmo.css  (55ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:24:42 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (68ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 150ms (Views: 149.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:24:56 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (70ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 146ms (Views: 145.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:25:15 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 140ms (Views: 139.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:25:21 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:25:26 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:25:43 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 99ms (Views: 98.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:26:00 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 81ms (Views: 80.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:26:25 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 78ms (Views: 76.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:26:55 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Compiled kubmo.css  (54ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 153ms (Views: 152.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:28:13 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.4ms)
+Compiled kubmo.css  (94ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 247ms (Views: 246.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:28:37 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:28:43 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:29:44 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 36ms (Views: 34.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:02 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 77.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:09 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 78ms (Views: 77.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:17 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 103ms (Views: 102.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:23 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 80ms (Views: 79.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:30 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 103.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:39 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:46 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:30:59 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (80ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:31:21 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (76ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 103ms (Views: 102.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:31:46 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (95ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 123ms (Views: 122.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:32:01 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:32:11 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 109ms (Views: 108.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:32:19 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (28ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:32:32 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:33:02 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 104.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:33:17 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:33:36 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 103ms (Views: 102.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:33:45 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:34:01 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:34:10 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 80ms (Views: 79.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:34:28 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:34:34 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 100ms (Views: 99.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:34:39 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:34:44 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:35:16 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (95ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 123ms (Views: 121.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:35:27 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:35:34 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:35:42 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (93ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 120ms (Views: 119.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:35:54 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (93ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:36:06 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (30ms)  (pid 32940)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:36:17 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (30ms)  (pid 32940)
+Completed 200 OK in 107ms (Views: 106.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:36:23 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 108ms (Views: 107.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:36:36 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:36:49 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (8ms)  (pid 32940)
+Completed 200 OK in 114ms (Views: 113.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:36:56 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:37:15 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (1.6ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 255ms (Views: 254.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:37:29 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 78ms (Views: 77.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:37:35 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:37:54 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:38:08 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:38:34 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (76ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 103ms (Views: 102.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:38:41 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:39:17 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:39:36 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:40:15 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (95ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:40:30 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (93ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 122ms (Views: 121.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:40:43 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (50ms)  (pid 32940)
+Compiled application.css  (30ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 104.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:41:10 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (29ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:41:17 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 234ms (Views: 232.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:42:15 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.1ms)
+Compiled kubmo.css  (56ms)  (pid 32940)
+Compiled application.css  (24ms)  (pid 32940)
+Completed 200 OK in 135ms (Views: 134.3ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:42:23 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 103.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:42:31 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:42:57 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 77.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:43:25 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:43:34 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 104ms (Views: 103.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:43:42 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:43:53 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 80ms (Views: 79.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:44:13 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (51ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:44:43 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:45:06 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:46:32 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Compiled kubmo.css  (102ms)  (pid 32940)
+Compiled application.css  (14ms)  (pid 32940)
+Completed 200 OK in 234ms (Views: 233.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:48:09 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (2.1ms)
+Compiled kubmo.css  (107ms)  (pid 32940)
+Compiled application.css  (11ms)  (pid 32940)
+Completed 200 OK in 227ms (Views: 225.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:48:47 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (77ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:56:15 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 25ms (Views: 24.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:57:39 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (56ms)  (pid 32940)
+Compiled application.css  (18ms)  (pid 32940)
+Completed 200 OK in 173ms (Views: 172.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:57:58 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 81ms (Views: 80.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:58:06 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (54ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 81ms (Views: 80.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:58:28 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.3ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 81ms (Views: 79.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:58:39 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:59:08 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (94ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 121ms (Views: 119.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:59:22 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 130ms (Views: 129.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:59:28 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 103ms (Views: 102.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:59:40 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (94ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 122ms (Views: 121.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 16:59:51 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (96ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 124ms (Views: 123.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:00:31 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:01:57 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:02:16 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:02:23 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 80ms (Views: 78.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:02:39 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 80ms (Views: 79.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:02:47 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 135ms (Views: 134.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:02:55 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (5ms)  (pid 32940)
+Completed 200 OK in 109ms (Views: 108.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:03:01 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:03:09 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (78ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:03:14 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:03:32 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (80ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 125ms (Views: 124.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:04:36 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (123ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 167ms (Views: 166.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-18 17:04:50 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (136ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 164ms (Views: 163.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:04:54 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:05:31 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 79ms (Views: 78.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:05:33 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:05:47 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (52ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 105ms (Views: 104.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:05:48 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:06:41 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (53ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 106ms (Views: 105.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:06:55 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (95ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 122ms (Views: 121.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:07:11 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (80ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 108ms (Views: 106.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:07:35 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (103ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 130ms (Views: 129.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:08:05 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (81ms)  (pid 32940)
+Compiled application.css  (3ms)  (pid 32940)
+Completed 200 OK in 108ms (Views: 107.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:08:13 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (79ms)  (pid 32940)
+Compiled application.css  (4ms)  (pid 32940)
+Completed 200 OK in 107ms (Views: 106.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-18 17:08:55 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.1ms)
