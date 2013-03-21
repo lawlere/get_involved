@@ -337,16 +337,10 @@
         font-family: myriad pro;
     }
 
-
-
-  
-
-
-
-// about page
+// logo
 
 #kubmo_logo_2 {
-    margin-left: 65px;
+    margin-left: 5%;
     margin-top: 15px;
 }
 
@@ -356,38 +350,6 @@
     color: #000000;
     margin-right: 180px;
     margin-top: 15px;
-}
-
-#problem {
-    width: 940px;
-    margin-top: 30px;
-    margin-left: 65px;
-}
-
-#problem h1 {
-    font-family: bitter;
-    font-weight: bold;
-}
-
-#problem p {
-    margin-top: 15px;
-    font-family: myriad pro;
-}
-
-#solution {
-    width: 940px;
-    margin-top: 30px;
-    margin-left: 65px; 
-}
-
-#solution h1 {
-    font-family: bitter;
-    font-weight: bold;
-}
-
-#solution p {
-    margin-top: 15px;
-    font-family: myriad pro;
 }
 
 
@@ -590,75 +552,249 @@
     margin-bottom: 30px;
 }
 
-//footer
+//about
+#about_nav {
+    ul {
+        display: inline-block;
+        width: 85%;
+        height: 50px;
+        background-color:#292929;
+        opacity: 0.6;
+        margin-left: 3.5%;
+        margin-top: -2px;
+    }
 
-#footer {
-    background: #292929;
-    position: fixed;
-    height: 80px;
-    clear:both;
-    bottom:0px;
-    width: 200px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
+    li {
+        float: left;
+        margin-left: 2%;
+    }
+
+    a {
+        margin-right: 80px;
+        margin-top: 20px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Bitter', serif;
+    }
+
+    a:hover {
+        color: #ba1a63;
+    }
+
+    li a {
+        display: block;
+        background-color: inherit;
+        color:  #fff ;
+    }
+
+    li ul {
+        display: none; 
+        width: 10em; /* Width to help Opera out */
+        background-color: inherit;
+    }
+
+    li:hover ul {
+        position: relative;
+        z-index: 1; 
+        display: block;
+    }
+    
+    li:hover li {
+        float: none; 
+        margin-top: 1px;
+    }
+}    
+
+#involved {
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 60%;
+}
+
+#involved h1 {
+    font-family: bitter;
+    font-size: 125%;
+    color: #404041;
+}
+
+#involved p {
+    font-family: myriad pro;
+    margin-top: 20px;
+}
+
+#share {
+    display: inline-block;
+    position: relative;
+    margin-left: 15%;
+    margin-top: 10px;
+    width: 120px;
+    padding-bottom: 80px;
+}
+
+#facebook_about img {
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#twitter_about img {
+    width: 70px;
+    margin-left: 37%;
+    position: absolute;
+    margin-top: 2px;
+}
+
+#tumblr_about img {
+    width: 33px;
+    margin-left: 100%;
+    position: absolute;
+    margin-top: 8px;
+}
+
+#share_text {
+    font-family: bitter;
+    color: white;
+    font-size: 90%;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    position: absolute;
+    width: 70px;
+    background-color: #ba1a63;
+    text-transform: uppercase;
+
+    -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+
+}
+
+#fund {
+    position: inline-block;
+    background-color: #ba1a63;
+    cursor: pointer;
+        
+
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
     -o-border-radius: 8px;
     border-radius: 8px;
-    margin-left: -20px;
-    opacity: 0.3;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+    color: #fff;
+    font-size: 14px;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-transform: uppercase;
 }
 
-#footer:hover {
-    opacity: 1;
+#fund p {
+    font-family: bitter;
 }
 
-    #footer_links {
-        display: inline-block;
-        float: left;
-        font-family: myriad pro;
-        color: white;
-        text-decoration: none;
-        margin-top: 5px;
-        margin-left: 30px;
-        padding-top: 3px;
-    }
+#help h2 {
+    font-family: bitter;
+    color: white;
+    font-size: 90%;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    width: 85px;
+    background-color: #ba1a63;
+    text-transform: uppercase;
+    margin-top: -44px;
+    margin-bottom: 40px;
 
-    #footer_content {
-        width: 70%;
-    }
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
 
-    #footer_links a {
-        float: left;
-        vertical-align: text-top;
-        font-family: myriad pro;
-        color: white;
-        text-decoration: none;
-        font-size: 90%;
-        position: absolute;
-    }
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
 
-    #footer_links a:hover {
-        color: #ba1a63;
-    }
+#about_mail img {
+    width: 52px;
+    margin-left: 17%;
+    margin-top: 10px;
+}
 
-    #footer_email {
-        padding-top: 15px;
-        margin-left: 10px;
-    }
+#about_click {
+    font-family: bitter;
+    color: white;
+    font-size: 90%;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    width: 60px;
+    background-color: #ba1a63;
+    text-transform: uppercase;
+    margin-bottom: 60px;
 
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
 
-    #footer_twitter {
-        padding-top: 30px;
-        margin-left: 10px;
-    }
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
 
-    #footer_facebook {
-        padding-top: 45px;
-        margin-left: 10px;
-    } 
+#about_click p {
+    font-family: bitter;
+    cursor: pointer;
+}
 
+#join_email input {
+    width: 200px;
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
 
 
      

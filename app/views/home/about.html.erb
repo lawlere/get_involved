@@ -1,10 +1,28 @@
 <%= render 'shared/kubmo_logo_2' %>
 
-<div class="involved">
+<div id="about_nav">
+
+	<ul id="about_navbar">
+	  <li id="donate">
+        <a href="Donate">Get Involved</a>
+      </li>
+
+      <li>
+        <a href="About">What We Do</a>
+      </li>
+      
+      <li>
+        <a href="The Girls">The Story</a>
+      </li>
+    </ul>
+    
+</div>      
+
+<div id="involved">
 
 	<div id="donate_section">
 		<h1> Donate </h1>
-			<p> Help get a device to one of the young women in Kenya. For every $150 we raise, we <br> can send one full smartphone package to Kenya. </p>
+			<p> Help get a device to one of the young women in Kenya. For every $150 we raise, we can send one full smartphone package to Kenya. </p>
 				<button id="fund">
 					<p> Help fund a device </p>
 				</button>	
@@ -12,42 +30,52 @@
 
 	<div id="spread">
 		<h1> Spread the message </h1>
-			<p> Create a movement within your group of friends. Share the Kubmo story through your <br> social community to empower young women in other parts of the world. Join our <br> communities on Facebook, Twitter, and Tumblr. </p>
-			<ul>
+			<p> Create a movement within your group of friends. Share the Kubmo story through your social community to empower young women in other parts of the world. Join our communities on Facebook, Twitter, and Tumblr. </p>
+			
+			<h2 id="share_text">Share:</h2>
+
+			<ul id="share">
 				<li>
-        			<a id="facebook" href="https://www.facebook.com/pages/Kubmo/502648673114461">
-          			<img src="/images/facebook.png" />
+        			<a id="facebook_about" href="https://www.facebook.com/pages/Kubmo/502648673114461">
+          			<img src="/images/facebook_black.jpeg" />
         			</a>
       			</li>
       
       			<li>
-        			<a id="twitter" href="https://twitter.com/Kubmo">
-         			 <img src="/images/twitter.png" />
+        			<a id="twitter_about" href="https://twitter.com/Kubmo">
+         			 <img src="/images/twitter_black.jpeg" />
+        			</a>
+      			</li>
+
+      			<li>
+        			<a id="tumblr_about" href="http://kubmo.tumblr.com/">
+         			 <img src="/images/tumblr_black.jpg" />
         			</a>
       			</li>
       		</ul>	
-	</div>	
+	</div>
 
 	<div id="help">
 		<h1> Help us build the Kubmo program </h1>
-			<p> Whether you're an entrepreneur, a global activist, or just interested in helping young <br>women around the world, you can help us form the program. Kubmo was made to <br> be a network of girls and women who connect, collaborate, and sponsor one another. </p>
-	</div>	
+			<p> Whether you're an entrepreneur, a global activist, or just interested in helping young women around the world, you can help us form the program. Kubmo was made to be a network of girls and women who connect, collaborate, and sponsor one another. </p>
 
-	<div id="help">
-		<h1> Help us build the Kubmo program </h1>
-			<p> Whether you're an entrepreneur, a global activist, or just interested in helping young <br>women around the world, you can help us form the program. Kubmo was made to <br> be a network of girls and women who connect, collaborate, and sponsor one another. </p>
-			<button id="email_us">
-				<a id="mail" href="mailto:kubmoteam@gmail.com?subject=Hello Kubmo">Email us to get involved!</a>
+			<a id="about_mail" href="mailto:kubmoteam@gmail.com?subject=Hello Kubmo">
+          		<img src="/images/mail_black.jpeg"/>
+        	</a>
+
+        	<h2>Email us:</h2>
 	</div>
 
 	<div id="join_email">
 		<h1> Join our mailing list </h1>
-			<p> Enter you're email address, we'll keep you updated! </p>
+			<p> Enter your email address, we'll keep you updated! </p>
 				<form action= "/signup">
 					<input type="text" id="field" name="email" placeholder="Email"> 
-						<button id="click"> 
+						<button id="about_click"> 
 							<p>Join</p>
 						</button>
 					</input>	
 				</form
-</div>
+	</div>
+
+</div>	
