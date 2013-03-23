@@ -256,7 +256,7 @@
 
     #index_text {
         float: right;
-        margin-right: 55%;
+        margin-right: 60%;
     }
 
     #index_text h1{
@@ -316,7 +316,7 @@
 
     #index_text_2 {
         float: right;
-        margin-right: 60%;
+        margin-right: 65%;
     }
 
     #index_text_2 h1 {
@@ -357,17 +357,18 @@
     
 #marriel_img {
     width: 220px;
-    margin-left: 65px;
+    margin-left: 5%;
     margin-top: 30px;
     float: left;
     padding-right: 30px;
+    margin-bottom: 15px;
 }
 
 .text {
     margin-top: 30px;
     font-family: myriad pro;
-    margin-right: 500px;
-    margin-left: 65px;
+    width: 70%;
+    margin-left: 5%;
 }
 
 .text h1 {
@@ -399,13 +400,8 @@
     margin-left: 30px;
 }
 
-//I cannot get this to work for the life of me
-#marriel #click_marriel button {
-    position: absolute;
-    margin-left: 730px;
-    margin-top: -635px;
-    vertical-align: top;
-    float: right;
+#click_marriel {
+    position: relative;
 
     background-color: #ba1a63;
     cursor: pointer;
@@ -427,46 +423,51 @@
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   
-    color: #fff;
     font-family:Bitter;
-    font-size: 100%;
-    height: 25px;
-    width: 180px;
-    margin-bottom: 200px;
+    font-size: 130%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+}
+
+#click_marriel a {
+    color: white;
+    text-decoration: none;
 }
 
 
 //kate
 
-#kate_img {
-    margin-left: 65px;
+#kate_page {
+    margin-top: 100px;
+}
+
+#kate_line {
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #404041;
+    width: 85%;
+    margin-left: 5%;
+}
+
+#kate_img  img{
+    width: 220px;
+    margin-left: 5%;
     margin-top: 30px;
     float: left;
     padding-right: 30px;
+    margin-bottom: 15px;
 }
 
-#kate_response {
-    position: absolute;
-    margin-left: 750px;
-    margin-top: -578px;
-    vertical-align: top;
-    float: right;
-}
+#click_kate {
+    position: relative;
 
-#kate_response p {
-    padding-bottom: 15px;
-    font-family: myriad pro;
-    font-weight: bold;
-    color: #ba1a63;
-    font-size: 20px;
-    margin-right: -20px;
-}
-
-#kate_response a button {
-    background-color: #404041;
+    background-color: #ba1a63;
     cursor: pointer;
-    float: right;
-    margin-right: 20px;
+    display: inline-block;
+    vertical-align: top;
 
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -483,56 +484,20 @@
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
   
-    color: #fff;
     font-family:Bitter;
-    font-size: 14px;
-    height: 25px;
-    width: 45px;
+    font-size: 130%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+
+    margin-bottom: 100px;
 }
 
-#kate_comment {
-    position: absolute;
-    float: right;
-    top: 130px;
-    left: 700px;
-}
-
-#kate_comment form {
-    float: right;
-    margin-right: -20px;
-}
-
- #kate_comment #kate_button {
-        position: inline-block;
-        vertical-align: top;
-        float:right;
-        margin-top: 10px;
-        margin-right: 425px;
-        background-color: #404041;
-        cursor: pointer;
-        
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-  
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-  
-        color: #fff;
-        font-family:Bitter;
-        font-size: 14px;
-        height: 25px;
-        width: 85px;
-       
+#click_kate a {
+    color: white;
+    text-decoration: none;
 }
 
 
@@ -560,8 +525,7 @@
         display: inline-block;
         width: 85%;
         height: 50px;
-        background-color:#292929;
-        opacity: 0.6;
+        background-color:#404041;
         margin-left: 3.5%;
         margin-top: -2px;
     }
@@ -627,7 +591,7 @@
 #share {
     display: inline-block;
     position: relative;
-    margin-left: 15%;
+    margin-left: 30%;
     margin-top: 10px;
     width: 120px;
     padding-bottom: 80px;
@@ -749,7 +713,7 @@
 
 #about_mail img {
     width: 52px;
-    margin-left: 17%;
+    margin-left: 30%;
     margin-top: 10px;
 }
 
@@ -800,18 +764,99 @@
 
 //what we do- about 
 
+#main_image {
+    margin-left: 10%; 
+    margin-top: 30px;  
+}
+
+#main_image img {
+    width: 50%;
+}
+
+#what_text img {
+    padding-top: 50px;
+    width: 30px;
+    position: absolute;
+    margin-top: -26px;
+}
+
+#what_text {
+    margin-left: 5%;
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    position: relative;
+    margin-top: 40px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #404041;
+}
+
+#what_text h1 {
+    font-family: bitter;
+    font-size: 120%;
+    color: #404041;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+#what_text p {
+    font-family: myriad pro;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
 
 
 //story- about
-#about_navbar {
-    margin-left: -30px;
+
+#story_content {
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 75%;
+} 
+
+#story_content h1 {
+    font-family: myriad pro;
+    font-weight: bold;
+    color: #404041;
+    margin-bottom: 15px;
 }
-.content {
-    margin-left: 30px;
-}    
-    h1 {
-        
-    }
+
+#story_content p {
+    font-family: myriad pro;
+    margin-bottom: 30px;
+}
+
+//blog
+
+#blog_content {
+    width: 75%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+#blog_content h1 {
+    font-family: bitter;
+    color: #404041;
+    font-size: 120%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#blog_content p {
+    font-family: myriad pro;
+    margin-bottom: 15px;
+}
+
+.blog_date {
+    margin-top: 50px;
+    color: #ba1a63;
+    font-family: myriad pro;
+    font-size: 80%;
+}
+    
 
 
 

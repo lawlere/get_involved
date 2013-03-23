@@ -14,6 +14,6 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/kate" => "people#marriel"
   match "/signup" => "signup#signup"
   match "/blog" => "home#blog"
-  match "/Donate" => redirect("http://rally.org/kubmo"), :as => :Donate
+  match "/Donate" => redirect("http://rally.org/kubmo"), :as => :Donate 
 
 end
