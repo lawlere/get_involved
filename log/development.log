@@ -52890,3 +52890,809 @@ Processing by HomeController#about as HTML
 Compiled kubmo.css  (87ms)  (pid 4966)
 Compiled application.css  (18ms)  (pid 4966)
 Completed 200 OK in 156ms (Views: 156.2ms | ActiveRecord: 0.0ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/" for 127.0.0.1 at 2013-03-22 12:18:28 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (25.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.5ms)
+  Rendered home/index.html.erb within layouts/application (91.8ms)
+Compiled kubmo.css  (246ms)  (pid 49550)
+Compiled application.css  (27ms)  (pid 49550)
+Completed 200 OK in 1016ms (Views: 908.2ms | ActiveRecord: 28.2ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 12:18:38 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.7ms)
+  Rendered home/about.html.erb within layouts/application (12.2ms)
+Completed 200 OK in 67ms (Views: 66.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 12:18:45 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 12:19:15 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 12:19:16 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 31ms (Views: 31.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 12:22:10 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (8.3ms)
+Completed 200 OK in 17ms (Views: 16.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 12:22:11 -0600
+
+AbstractController::ActionNotFound (The action 'what' could not be found for HomeController):
+  actionpack (3.2.9) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.9) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.9) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.9) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.9) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.9) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.9) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `_run__66611629080187719__call__4277121265866518230__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.9ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:16:30 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered home/about.html.erb within layouts/application (24.8ms)
+Completed 200 OK in 93ms (Views: 93.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 14:16:32 -0600
+Processing by HomeController#what as HTML
+Completed 500 Internal Server Error in 144ms
+
+ActionView::MissingTemplate (Missing template home/what, application/what with {:locale=>[:en], :formats=>[:html], :handlers=>[:erb, :builder, :coffee]}. Searched in:
+  * "/Users/kinseyanndurham/get_involved/app/views"
+  * "/Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/devise-2.2.3/app/views"
+):
+  actionpack (3.2.9) lib/action_view/path_set.rb:58:in `find'
+  actionpack (3.2.9) lib/action_view/lookup_context.rb:109:in `find'
+  actionpack (3.2.9) lib/action_view/renderer/abstract_renderer.rb:3:in `find_template'
+  actionpack (3.2.9) lib/action_view/renderer/template_renderer.rb:34:in `determine_template'
+  actionpack (3.2.9) lib/action_view/renderer/template_renderer.rb:10:in `render'
+  actionpack (3.2.9) lib/action_view/renderer/renderer.rb:36:in `render_template'
+  actionpack (3.2.9) lib/action_view/renderer/renderer.rb:17:in `render'
+  actionpack (3.2.9) lib/abstract_controller/rendering.rb:110:in `_render_template'
+  actionpack (3.2.9) lib/action_controller/metal/streaming.rb:225:in `_render_template'
+  actionpack (3.2.9) lib/abstract_controller/rendering.rb:103:in `render_to_body'
+  actionpack (3.2.9) lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+  actionpack (3.2.9) lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+  actionpack (3.2.9) lib/abstract_controller/rendering.rb:88:in `render'
+  actionpack (3.2.9) lib/action_controller/metal/rendering.rb:16:in `render'
+  actionpack (3.2.9) lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+  activesupport (3.2.9) lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/benchmark.rb:295:in `realtime'
+  activesupport (3.2.9) lib/active_support/core_ext/benchmark.rb:5:in `ms'
+  actionpack (3.2.9) lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+  actionpack (3.2.9) lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+  activerecord (3.2.9) lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+  actionpack (3.2.9) lib/action_controller/metal/instrumentation.rb:39:in `render'
+  actionpack (3.2.9) lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+  actionpack (3.2.9) lib/action_controller/metal/implicit_render.rb:5:in `send_action'
+  actionpack (3.2.9) lib/abstract_controller/base.rb:167:in `process_action'
+  actionpack (3.2.9) lib/action_controller/metal/rendering.rb:10:in `process_action'
+  actionpack (3.2.9) lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:414:in `_run__363983268012763913__process_action__1529387149896651871__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/abstract_controller/callbacks.rb:17:in `process_action'
+  actionpack (3.2.9) lib/action_controller/metal/rescue.rb:29:in `process_action'
+  actionpack (3.2.9) lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+  activesupport (3.2.9) lib/active_support/notifications.rb:123:in `block in instrument'
+  activesupport (3.2.9) lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+  activesupport (3.2.9) lib/active_support/notifications.rb:123:in `instrument'
+  actionpack (3.2.9) lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+  actionpack (3.2.9) lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+  activerecord (3.2.9) lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+  actionpack (3.2.9) lib/abstract_controller/base.rb:121:in `process'
+  actionpack (3.2.9) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.9) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.9) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.9) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.9) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.9) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `_run__66611629080187719__call__4277121265866518230__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/missing_template.erb within rescues/layout (0.8ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 14:18:35 -0600
+Processing by HomeController#what as HTML
+  Rendered home/what.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 2ms
+
+ActionView::Template::Error (wrong number of arguments (0 for 2..3)):
+    1: <% test %>
+  app/views/home/what.html.erb:1:in `test'
+  app/views/home/what.html.erb:1:in `_app_views_home_what_html_erb___2324482735934008967_70288250121240'
+
+
+  Rendered /Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+  Rendered /Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.9ms)
+  Rendered /Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (21.4ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 14:18:50 -0600
+Processing by HomeController#what as HTML
+  Rendered home/what.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 32ms (Views: 31.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 14:20:30 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (20.8ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 146ms (Views: 42.1ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:20:33 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 14:20:36 -0600
+Processing by HomeController#what as HTML
+  Rendered home/what.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 14:21:58 -0600
+Processing by HomeController#what as HTML
+  Rendered home/what.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:23:12 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:23:14 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered people/marriel.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 36ms (Views: 35.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:23:16 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:23:47 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 8.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 14:23:48 -0600
+Processing by HomeController#what as HTML
+  Rendered home/what.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:23:56 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:24:31 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:24:34 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered home/about.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 13ms (Views: 12.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:24:35 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:24:54 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:24:56 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 11ms (Views: 11.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:25:06 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 14:25:08 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:25:09 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:25:11 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 8.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:25:13 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:29:17 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (24.2ms)
+Completed 200 OK in 77ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:29:18 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 14:29:19 -0600
+
+AbstractController::ActionNotFound (The action 'story' could not be found for HomeController):
+  actionpack (3.2.9) lib/abstract_controller/base.rb:116:in `process'
+  actionpack (3.2.9) lib/abstract_controller/rendering.rb:45:in `process'
+  actionpack (3.2.9) lib/action_controller/metal.rb:203:in `dispatch'
+  actionpack (3.2.9) lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+  actionpack (3.2.9) lib/action_controller/metal.rb:246:in `block in action'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:73:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:36:in `call'
+  journey (1.0.4) lib/journey/router.rb:68:in `block in call'
+  journey (1.0.4) lib/journey/router.rb:56:in `each'
+  journey (1.0.4) lib/journey/router.rb:56:in `call'
+  actionpack (3.2.9) lib/action_dispatch/routing/route_set.rb:601:in `call'
+  warden (1.2.1) lib/warden/manager.rb:35:in `block in call'
+  warden (1.2.1) lib/warden/manager.rb:34:in `catch'
+  warden (1.2.1) lib/warden/manager.rb:34:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+  rack (1.4.5) lib/rack/etag.rb:23:in `call'
+  rack (1.4.5) lib/rack/conditionalget.rb:25:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/head.rb:14:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/flash.rb:242:in `call'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:210:in `context'
+  rack (1.4.5) lib/rack/session/abstract/id.rb:205:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/cookies.rb:341:in `call'
+  activerecord (3.2.9) lib/active_record/query_cache.rb:64:in `call'
+  activerecord (3.2.9) lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `_run__66611629080187719__call__4277121265866518230__callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:405:in `__run_callback'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+  activesupport (3.2.9) lib/active_support/callbacks.rb:81:in `run_callbacks'
+  actionpack (3.2.9) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/reloader.rb:65:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 14:41:51 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 14:42:00 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 8.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/What" for 127.0.0.1 at 2013-03-22 14:42:01 -0600
+Processing by HomeController#what as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/what.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 12ms (Views: 12.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Donate" for 127.0.0.1 at 2013-03-22 14:42:03 -0600
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 14:46:00 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 36ms (Views: 36.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 14:46:01 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 10ms (Views: 9.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 14:46:21 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 181ms (Views: 41.6ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 14:51:24 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 14:51:59 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 38ms (Views: 37.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 14:54:19 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (24.6ms)
+Completed 200 OK in 44ms (Views: 42.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-22 14:54:23 -0600
+
+ActionController::RoutingError (No route matches [GET] "/kate"):
+  actionpack (3.2.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.9) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.9) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.9) lib/rails/rack/logger.rb:16:in `call'
+  quiet_assets (1.0.2) lib/quiet_assets.rb:18:in `call_with_quiet_assets'
+  actionpack (3.2.9) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.9) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.9) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.9) lib/rails/engine.rb:479:in `call'
+  railties (3.2.9) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.9) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:138:in `service'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/httpserver.rb:94:in `run'
+  /Users/kinseyanndurham/.rvm/rubies/ruby-1.9.3-p327/lib/ruby/1.9.1/webrick/server.rb:191:in `block in start_thread'
+
+
+  Rendered /Users/kinseyanndurham/.rvm/gems/ruby-1.9.3-p327@rails-prelaunch-signup/gems/actionpack-3.2.9/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (1.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 14:54:55 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 16ms (Views: 12.7ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-22 14:54:57 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered people/marriel.html.erb within layouts/application (35.7ms)
+Completed 200 OK in 107ms (Views: 106.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 15:03:36 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.1ms)
+  Rendered home/index.html.erb within layouts/application (58.1ms)
+Completed 200 OK in 152ms (Views: 122.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:03:40 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 161ms (Views: 160.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:19:21 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered people/marriel.html.erb within layouts/application (25.1ms)
+Completed 200 OK in 124ms (Views: 123.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 15:25:14 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.4ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (14.4ms)
+Completed 200 OK in 96ms (Views: 41.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 15:27:30 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.0ms)
+Compiled kubmo.css  (204ms)  (pid 49550)
+Compiled application.css  (40ms)  (pid 49550)
+Completed 200 OK in 524ms (Views: 523.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 15:27:42 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (193ms)  (pid 49550)
+Compiled application.css  (19ms)  (pid 49550)
+Completed 200 OK in 304ms (Views: 302.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 15:28:38 -0600
+Processing by HomeController#index as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.8ms)
+Compiled kubmo.css  (173ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 199ms (Views: 198.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-03-22 15:28:53 -0600
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/kate" for 127.0.0.1 at 2013-03-22 15:28:55 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 7.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:30:29 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (169ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 194ms (Views: 193.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:30:29 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 10ms (Views: 10.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:31:16 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (89ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 160ms (Views: 159.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:31:34 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (107ms)  (pid 49550)
+Compiled application.css  (4ms)  (pid 49550)
+Completed 200 OK in 164ms (Views: 163.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:32:06 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (117ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 141ms (Views: 141.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:32:20 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (90ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 117ms (Views: 116.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 15:32:27 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 28ms (Views: 27.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 15:34:31 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:34:32 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 10ms (Views: 9.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:34:42 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.4ms)
+Compiled kubmo.css  (93ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 162ms (Views: 162.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 15:34:47 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (171ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 197ms (Views: 196.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/The%20Girls" for 127.0.0.1 at 2013-03-22 16:03:00 -0600
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.1ms)
+  Rendered people/marriel.html.erb within layouts/application (24.4ms)
+Compiled kubmo.css  (240ms)  (pid 49550)
+Compiled application.css  (37ms)  (pid 49550)
+Completed 200 OK in 469ms (Views: 469.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-03-22 16:03:02 -0600
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 43ms (Views: 42.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 16:03:03 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 16:03:05 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 16:05:02 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (0.7ms)
+Compiled kubmo.css  (131ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 200ms (Views: 199.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 16:05:42 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (118ms)  (pid 49550)
+Compiled application.css  (3ms)  (pid 49550)
+Completed 200 OK in 143ms (Views: 142.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 16:19:05 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 20ms (Views: 19.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Story" for 127.0.0.1 at 2013-03-22 16:19:24 -0600
+Processing by HomeController#story as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/story.html.erb within layouts/application (0.5ms)
+Compiled kubmo.css  (112ms)  (pid 49550)
+Compiled application.css  (25ms)  (pid 49550)
+Completed 200 OK in 284ms (Views: 283.4ms | ActiveRecord: 0.0ms)

@@ -11,5 +11,12 @@ class HomeController < ApplicationController
 
   def blog
   end	
+
+  def what
+  end 
+
+  def story
+  end
+  
  end
 

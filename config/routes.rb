@@ -7,9 +7,12 @@ RailsPrelaunchSignup::Application.routes.draw do
   resources :users
 
   match "/home" => "home#index"
-  match "/The%20Girls" => "people#marriel"
-  match "/signup" => "signup#signup"
   match "/About" => "home#about"
+  match "/What" => "home#what"
+  match "/Story" => "home#story"
+  match "/The%20Girls" => "people#marriel"
+  match "/kate" => "people#marriel"
+  match "/signup" => "signup#signup"
   match "/blog" => "home#blog"
   match "/Donate" => redirect("http://rally.org/kubmo"), :as => :Donate
 

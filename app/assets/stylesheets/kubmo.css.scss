@@ -222,7 +222,7 @@
         margin-top: 70px;
     }
 
-    #index_text #click_marriel {
+    #index_text #marriel_button button {
         margin-top: 40px;
         margin-right: 55%;
         margin-bottom: 10px;
@@ -282,7 +282,7 @@
         margin-top: 40px;
     }
 
-    #index_text_2 #click_kate {
+    #index_text_2 #kate_button button {
         margin-top: 40px;
         margin-right: 55%;
 
@@ -399,17 +399,18 @@
     margin-left: 30px;
 }
 
-#marriel #donate {
+//I cannot get this to work for the life of me
+#marriel #click_marriel button {
     position: absolute;
     margin-left: 730px;
     margin-top: -635px;
     vertical-align: top;
     float: right;
 
-    background-color: #404041;
+    background-color: #ba1a63;
     cursor: pointer;
-    float: right;
-    margin-right: 40px;
+    display: inline-block;
+    vertical-align: top;
 
     -webkit-border-radius: 8px;
     -moz-border-radius: 8px;
@@ -428,9 +429,10 @@
   
     color: #fff;
     font-family:Bitter;
-    font-size: 14px;
+    font-size: 100%;
     height: 25px;
-    width: 45px;
+    width: 180px;
+    margin-bottom: 200px;
 }
 
 
@@ -552,7 +554,7 @@
     margin-bottom: 30px;
 }
 
-//about
+//about nav 
 #about_nav {
     ul {
         display: inline-block;
@@ -604,7 +606,7 @@
         margin-top: 1px;
     }
 }    
-
+//Get involved- about 
 #involved {
     margin-left: 5%;
     margin-top: 30px;
@@ -796,8 +798,20 @@
     border-radius: 8px;
 }
 
+//what we do- about 
 
-     
+
+
+//story- about
+#about_navbar {
+    margin-left: -30px;
+}
+.content {
+    margin-left: 30px;
+}    
+    h1 {
+        
+    }
 
 
 
