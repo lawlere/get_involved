@@ -20,7 +20,7 @@
 		font-family: 'Bitter', serif;
 	}
 
-    a:hover {
+     a:active{
         color: #ba1a63;
     }
 
@@ -36,18 +36,18 @@
         background-color: inherit;
     }
 
-    li:hover ul {
+    li:active ul {
         position: relative;
         z-index: 1; 
         display: block;
     }
     
-    li:hover li {
+    li:active li {
         float: none; 
         margin-top: 1px;
 }
     
-    li:hover li a {
+    li:active li a {
         background-color: #404041;
         border-bottom: 1px solid  #fff ;
         color: #fff;
@@ -59,7 +59,7 @@
         border-radius: 1px;
     }
 
-    li li a:hover {
+    li li a:active {
         color: #ba1a63;
         text-decoration: none; 
     }
@@ -649,8 +649,18 @@
 
 #fund {
     position: inline-block;
-    background-color: #ba1a63;
     cursor: pointer;
+    background-color: #ba1a63;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: bitter;
+    text-color: white;
+    font-size: 14px;
+    text-transform: uppercase;
         
 
     -webkit-border-radius: 8px;
@@ -667,19 +677,11 @@
     -moz-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
-  
-    color: #fff;
-    font-size: 14px;
-    padding-top: 7px;
-    padding-bottom: 4px;
-    padding-left: 10px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    text-transform: uppercase;
 }
 
-#fund p {
-    font-family: bitter;
+#fund text {
+    text-decoration: none;  
+    color: #fff;
 }
 
 #help h2 {
