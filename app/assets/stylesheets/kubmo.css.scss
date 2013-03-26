@@ -20,7 +20,11 @@
 		font-family: 'Bitter', serif;
 	}
 
-     a:active{
+    a:hover {
+        color: #ba1a63;
+    }
+
+    a:active {
         color: #ba1a63;
     }
 
@@ -46,23 +50,6 @@
         float: none; 
         margin-top: 1px;
 }
-    
-    li:active li a {
-        background-color: #404041;
-        border-bottom: 1px solid  #fff ;
-        color: #fff;
-        padding: 10px;
-        margin-top: -20px;
-        -webkit-border-radius: 1px;
-        -moz-border-radius: 1px;
-        -o-border-radius: 1px;
-        border-radius: 1px;
-    }
-
-    li li a:active {
-        color: #ba1a63;
-        text-decoration: none; 
-    }
 
     #facebook {
         position: relative;
@@ -113,7 +100,7 @@
 
 #box {
   width: 350px;
-  height: 295px;
+  height: 305px;
   margin-top: 25px;
   margin-left: 5%;
   background-color: #A8A8A8;
@@ -129,8 +116,8 @@
 
 #click {
     position: relative;
-    margin-top: -90px;
-    margin-left: 5%;
+    margin-top: -97px;
+    margin-left: 7.5%;
 
 
     background-color: #ba1a63;
@@ -168,9 +155,22 @@
     letter-spacing: 1px;
     line-height: 25px;
     z-index: 10px;
-    margin-left: 7%;
-    margin-top: -275px;
-    width: 300px;
+    margin-left: 8%;
+    margin-top: -283px;
+    width: 330px;
+}
+
+#landing_description {
+    position: absolute;
+    font-family: myriad pro;
+    font-size: 90%;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    z-index: 10px;
+    margin-left: 8%;
+    margin-top: -175px;
+    width: 315px;
 }
 
 #Meet a {
@@ -180,7 +180,7 @@
     font-family: myriad pro;
     font-size: 100%;
     letter-spacing: .9px;
-    margin-left: 7%;
+    margin-left: 8.5%;
     font-weight: lighter;
 }
 
@@ -191,7 +191,7 @@
 }
 
 #Meet a h3 {
-    margin-top: -55px;
+    margin-top: -60px;
 }
 
 #Meet a:hover {
@@ -679,7 +679,7 @@
     transition: all 0.5s ease-in-out;
 }
 
-#fund text {
+#fund a {
     text-decoration: none;  
     color: #fff;
 }
@@ -847,9 +847,18 @@
     margin-top: 5px;
 }
 
+#blog_content h2 {
+    font-family: myriad pro;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #404041;
+}
+
 #blog_content p {
     font-family: myriad pro;
     margin-bottom: 15px;
+    font-weight: normal;
 }
 
 .blog_date {
