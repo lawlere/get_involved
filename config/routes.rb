@@ -10,10 +10,9 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/About" => "home#about"
   match "/What" => "home#what"
   match "/Story" => "home#story"
-  match "/The%20Girls" => "people#marriel"
-  match "/kate" => "people#marriel"
+  match "/Marriel" => "people#marriel"
   match "/signup" => "signup#signup"
   match "/blog" => "home#blog"
-  match "/Donate" => redirect("http://rally.org/kubmo"), :as => :Donate 
+  match "/Donate" => redirect("http://www.indiegogo.com/projects/kubmo"), :as => :Donate 
 
 end
