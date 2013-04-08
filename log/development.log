@@ -61896,3 +61896,91 @@ Processing by HomeController#index as HTML
   Rendered shared/_kubmo_logo.html.erb (0.0ms)
   Rendered home/index.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 11ms (Views: 9.9ms | ActiveRecord: 0.2ms)
+Connecting to database specified by database.yml
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-08 15:09:53 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.3ms)
+  Rendered home/blog.html.erb within layouts/application (8.3ms)
+Compiled jquery.js  (1ms)  (pid 37261)
+Compiled jquery_ujs.js  (0ms)  (pid 37261)
+Compiled bootstrap-transition.js  (0ms)  (pid 37261)
+Compiled bootstrap-affix.js  (0ms)  (pid 37261)
+Compiled bootstrap-alert.js  (0ms)  (pid 37261)
+Compiled bootstrap-button.js  (0ms)  (pid 37261)
+Compiled bootstrap-carousel.js  (0ms)  (pid 37261)
+Compiled bootstrap-collapse.js  (0ms)  (pid 37261)
+Compiled bootstrap-dropdown.js  (0ms)  (pid 37261)
+Compiled bootstrap-modal.js  (0ms)  (pid 37261)
+Compiled bootstrap-scrollspy.js  (0ms)  (pid 37261)
+Compiled bootstrap-tab.js  (0ms)  (pid 37261)
+Compiled bootstrap-tooltip.js  (0ms)  (pid 37261)
+Compiled bootstrap-popover.js  (0ms)  (pid 37261)
+Compiled bootstrap-typeahead.js  (0ms)  (pid 37261)
+Compiled bootstrap.js  (191ms)  (pid 37261)
+Compiled home.js  (73ms)  (pid 37261)
+Compiled application.js  (342ms)  (pid 37261)
+Completed 200 OK in 456ms (Views: 455.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-08 15:11:11 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (146ms)  (pid 37261)
+Compiled application.css  (4ms)  (pid 37261)
+Completed 200 OK in 176ms (Views: 175.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-04-08 15:11:19 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (1.2ms)
+Compiled kubmo.css  (143ms)  (pid 37261)
+Compiled application.css  (4ms)  (pid 37261)
+Completed 200 OK in 174ms (Views: 173.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/About" for 127.0.0.1 at 2013-04-08 15:11:30 -0700
+Processing by HomeController#about as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/about.html.erb within layouts/application (0.6ms)
+Compiled kubmo.css  (127ms)  (pid 37261)
+Compiled application.css  (4ms)  (pid 37261)
+Completed 200 OK in 158ms (Views: 157.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Marriel" for 127.0.0.1 at 2013-04-08 15:11:34 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/Marriel" for 127.0.0.1 at 2013-04-08 15:11:58 -0700
+Processing by PeopleController#marriel as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered people/marriel.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 11ms (Views: 10.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-08 15:12:00 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 9.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-08 15:22:10 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 24ms (Views: 23.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-08 15:22:33 -0700
+Processing by HomeController#blog as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/blog.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 10ms (Views: 10.3ms | ActiveRecord: 0.0ms)

@@ -14,54 +14,52 @@
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
   </head>
-  
-  <div class="top_nav">
-    <ul id="navbar">
-
-      <li>
-        <a id="nav_logo" href="/home">
-          <img src="/images/logo_circle_white.png" />
-        </a>
-      </li>      
-
-      <li id="donate">
-        <a href="Donate">Donate</a>
-      </li>
-
-      <li>
-        <a href="About">About</a>
-      </li>
-      
-      <li>
-        <a href="Marriel">Marriel</a>
-      </li>
-
-      <li>
-        <a id="blog" href="/blog" class="call-to-action">Blog</a>
-      </li>  
-
-      <li>
-        <a id="facebook" href="https://www.facebook.com/pages/Kubmo/502648673114461" target="_blank">
-          <img src="/images/facebook.png" />
-        </a>
-      </li>
-      
-      <li>
-        <a id="twitter" href="https://twitter.com/Kubmo" target="_blank">
-          <img src="/images/twitter.png" />
-        </a>
-      </li>
-      <li>
-        <a id="mail" href="mailto:kubmoteam@gmail.com?subject=Hello Kubmo" target="_blank">
-          <img src="/images/email.png"/>
-        </a>
-      </li>
-    </ul>
- </div>
-
 
 
   <body class="<%= controller_name %> <%= action_name %> contain">
+    <div class="top_nav">
+      <ul id="navbar">
+        <li>
+          <a id="nav_logo" href="/home">
+            <img src="/images/logo_circle_white.png" />
+          </a>
+        </li>      
+
+        <li id="donate">
+          <a href="Donate">Donate</a>
+        </li>
+
+        <li>
+          <a <% if action_name == 'about' %> class="active" <% end %> href="About">About</a>
+        </li>
+        
+        <li>
+          <a <% if action_name == 'marriel' %> class="active" <% end %> href="Marriel">Marriel</a>
+        </li>
+
+        <li>
+          <a id="blog" <% if action_name == 'blog' %> class="active" <% end %>  href="/blog" class="call-to-action">Blog</a>
+        </li>  
+
+        <li>
+          <a id="facebook" href="https://www.facebook.com/pages/Kubmo/502648673114461" target="_blank">
+            <img src="/images/facebook.png" />
+          </a>
+        </li>
+        
+        <li>
+          <a id="twitter" href="https://twitter.com/Kubmo" target="_blank">
+            <img src="/images/twitter.png" />
+          </a>
+        </li>
+        <li>
+          <a id="mail" href="mailto:kubmoteam@gmail.com?subject=Hello Kubmo" target="_blank">
+            <img src="/images/email.png"/>
+          </a>
+        </li>
+      </ul>
+   </div>
+
     <%= yield %>    
   </body>
  
