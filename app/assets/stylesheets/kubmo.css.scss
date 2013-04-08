@@ -1,127 +1,233 @@
-@media only screen 
-and (min-width : 1824px) {    
+ 
 
-    // Top Navigation Bar
-    .top_nav {
-    	
-    	ul {
-    		display: inline-block;
-            width: 100%;
-    		height: 50px;
-    		background-color:#292929;
-    	}
+// Top Navigation Bar
+.top_nav {
+	
+	ul {
+		display: inline-block;
+        width: 100%;
+		height: 50px;
+		background-color:#292929;
+	}
 
-    	li {
-    		float: left;
-    		margin-left: 5%;
-    	}
+	li {
+		float: left;
+		margin-left: 5%;
+	}
 
-    	a {
-    		margin: 20px;
-    		color: white;
-    		text-decoration: none;
-    		font-family: 'Bitter', serif;
-    	}
+	a {
+		margin: 20px;
+		color: white;
+		text-decoration: none;
+		font-family: 'Bitter', serif;
+	}
 
-        a:hover {
-            color: #ba1a63;
-        }
-
-        a:active {
-            color: #ba1a63;
-        }
-
-    	li a {
-            display: block;
-            background-color: inherit;
-            color:  #fff ;
-        }
-
-        li ul {
-            display: none; 
-            width: 10em; /* Width to help Opera out */
-            background-color: inherit;
-        }
-
-        li:active ul {
-            position: relative;
-            z-index: 1; 
-            display: block;
-        }
-        
-        li:active li {
-            float: none; 
-            margin-top: 1px;
+    a:hover {
+        color: #ba1a63;
     }
 
-        #facebook {
-            position: relative;
-            margin: 10px;
-            margin-right: -30px;
-        }
-
-        #twitter {
-        	position: relative;
-            margin: 10px;
-            margin-right: -30px;
-        }
-
-        #mail {
-        	position: relative;
-            margin: 10px;
-            margin-right: -30px;
-        }
-
-        #nav_logo img {
-            position: absolute;
-            width: 32px;
-            margin-top: -8px;
-            margin-left: -2%;
-        }
-
-        #donate {
-            font-size: 115%;
-            margin-top: -14px;
-            margin-right: -5px;
-        }
-
-        #donate a {
-            color: white;
-            background-color: #ba1a63;
-            padding: 10px;
-        }
+    a:active {
+        color: #ba1a63;
     }
 
-    // Landing Page 
-    #kubmo_logo img {
-        width: 350px;
+	li a {
+        display: block;
+        background-color: inherit;
+        color:  #fff ;
+    }
+
+    li ul {
+        display: none; 
+        width: 10em; /* Width to help Opera out */
+        background-color: inherit;
+    }
+
+    li:active ul {
         position: relative;
+        z-index: 1; 
+        display: block;
+    }
+    
+    li:active li {
+        float: none; 
+        margin-top: 1px;
+}
+
+    #facebook {
+        position: relative;
+        margin: 10px;
+        margin-right: -30px;
+    }
+
+    #twitter {
+    	position: relative;
+        margin: 10px;
+        margin-right: -30px;
+    }
+
+    #mail {
+    	position: relative;
+        margin: 10px;
+        margin-right: -30px;
+    }
+
+    #nav_logo img {
+        position: absolute;
+        width: 32px;
+        margin-top: -8px;
+        margin-left: -2%;
+    }
+
+    #donate {
+        font-size: 115%;
+        margin-top: -14px;
+        margin-right: -5px;
+    }
+
+    #donate a {
+        color: white;
+        background-color: #ba1a63;
+        padding: 10px;
+    }
+}
+
+// Landing Page 
+#kubmo_logo img {
+    width: 350px;
+    position: relative;
+    margin-left: 5%;
+    margin-top: 100px;
+    z-index: 10;
+}
+
+#box {
+  width: 350px;
+  height: 305px;
+  margin-top: 25px;
+  margin-left: 5%;
+  background-color: #A8A8A8;
+  opacity: 0.6;
+  filter: alpha(opacity=60); /* For IE8 and earlier */
+  z-index: -999;
+  
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    -o-border-radius: 3px;
+    border-radius: 3px;
+}
+
+#click {
+    position: relative;
+    margin-top: -97px;
+    margin-left: 7.5%;
+
+
+    background-color: #ba1a63;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+    color: #fff;
+    font-family:Bitter;
+    font-size: 100%;
+    height: 35px;
+    width: 180px;
+}
+
+#mission {
+    position: absolute;
+    font-family: myriad pro;
+    font-size: 112.5%;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 25px;
+    z-index: 10px;
+    margin-left: 8%;
+    margin-top: -283px;
+    width: 320px;
+}
+
+#landing_description {
+    position: absolute;
+    font-family: myriad pro;
+    font-size: 90%;
+    color: white;
+    letter-spacing: 1px;
+    line-height: 20px;
+    z-index: 10px;
+    margin-left: 8%;
+    margin-top: -175px;
+    width: 315px;
+}
+
+#Meet a {
+    position: absolute;
+    color: white;
+    text-decoration: none;
+    font-family: myriad pro;
+    font-size: 100%;
+    letter-spacing: .9px;
+    margin-left: 8.5%;
+    font-weight: lighter;
+}
+
+#triangle {
+    position: absolute;
+    width: 10px;
+    margin-left: 45%;
+}
+
+#Meet a h3 {
+    margin-top: -60px;
+}
+
+#Meet a:hover {
+    color:#ba1a63;
+    font-weight: bold;
+}
+
+
+#background_image img {
+    width: 1800px;
+    position: absolute;
+}
+
+#photo_credit {
+    color: white;
+}
+
+#girls_index {
+    height: 500px;
+    width: 100%;
+    background-color: white;
+    margin-top: 180px;
+    position: absolute;
+}
+
+    #girls_index_marriel {
         margin-left: 5%;
-        margin-top: 100px;
-        z-index: 10;
+        margin-top: 70px;
     }
 
-    #box {
-      width: 350px;
-      height: 305px;
-      margin-top: 25px;
-      margin-left: 5%;
-      background-color: #A8A8A8;
-      opacity: 0.6;
-      filter: alpha(opacity=60); /* For IE8 and earlier */
-      z-index: -999;
-      
-        -webkit-border-radius: 3px;
-        -moz-border-radius: 3px;
-        -o-border-radius: 3px;
-        border-radius: 3px;
-    }
-
-    #click {
-        position: relative;
-        margin-top: -97px;
-        margin-left: 7.5%;
-
+    #index_text #marriel_button button {
+        margin-top: 40px;
+        margin-right: 55%;
+        margin-bottom: 10px;
 
         background-color: #ba1a63;
         cursor: pointer;
@@ -137,274 +243,50 @@ and (min-width : 1824px) {
         -moz-box-shadow: 2px 2px 5px #888;
         -o-box-shadow: 2px 2px 5px #888;
         box-shadow: 2px 2px 5px #888;
-      
+  
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
-      
+  
         color: #fff;
         font-family:Bitter;
         font-size: 100%;
-        height: 35px;
+        height: 25px;
         width: 180px;
     }
 
-    #mission {
-        position: absolute;
-        font-family: myriad pro;
-        font-size: 112.5%;
-        color: white;
-        letter-spacing: 1px;
-        line-height: 25px;
-        z-index: 10px;
-        margin-left: 8%;
-        margin-top: -283px;
-        width: 320px;
+    #index_text {
+        float: right;
+        margin-right: 60%;
     }
 
-    #landing_description {
-        position: absolute;
-        font-family: myriad pro;
-        font-size: 90%;
-        color: white;
-        letter-spacing: 1px;
-        line-height: 20px;
-        z-index: 10px;
-        margin-left: 8%;
-        margin-top: -175px;
-        width: 315px;
-    }
-
-    #Meet a {
-        position: absolute;
-        color: white;
-        text-decoration: none;
-        font-family: myriad pro;
-        font-size: 100%;
-        letter-spacing: .9px;
-        margin-left: 8.5%;
-        font-weight: lighter;
-    }
-
-    #triangle {
-        position: absolute;
-        width: 10px;
-        margin-left: 45%;
-    }
-
-    #Meet a h3 {
-        margin-top: -60px;
-    }
-
-    #Meet a:hover {
-        color:#ba1a63;
-        font-weight: bold;
-    }
-
-
-    #background_image img {
-        width: 1800px;
-        position: absolute;
-    }
-
-    #photo_credit {
-        color: white;
-    }
-
-    #girls_index {
-        height: 500px;
-        width: 100%;
-        background-color: white;
-        margin-top: 180px;
-        position: absolute;
-    }
-
-        #girls_index_marriel {
-            margin-left: 5%;
-            margin-top: 70px;
-        }
-
-        #index_text #marriel_button button {
-            margin-top: 40px;
-            margin-right: 55%;
-            margin-bottom: 10px;
-
-            background-color: #ba1a63;
-            cursor: pointer;
-            display: inline-block;
-            vertical-align: top;
-
-            -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            -o-border-radius: 8px;
-            border-radius: 8px;
-
-            -webkit-box-shadow: 2px 2px 5px #888;
-            -moz-box-shadow: 2px 2px 5px #888;
-            -o-box-shadow: 2px 2px 5px #888;
-            box-shadow: 2px 2px 5px #888;
-      
-            -webkit-transition: all 0.5s ease-in-out;
-            -moz-transition: all 0.5s ease-in-out;
-            -o-transition: all 0.5s ease-in-out;
-            transition: all 0.5s ease-in-out;
-      
-            color: #fff;
-            font-family:Bitter;
-            font-size: 100%;
-            height: 25px;
-            width: 180px;
-        }
-
-        #index_text {
-            float: right;
-            margin-right: 60%;
-        }
-
-        #index_text h1{
-            font-family: bitter;
-            font-weight: bold;
-            padding-bottom: 20px;
-            font-size: 112%;
-            margin-top: 27px;
-        }
-
-        #index_text h2 {
-            font-family: myriad pro;
-            font-weight: bold;
-            padding-top: 10px;
-        }
-
-        #index_text p {
-            font-family: myriad pro;
-        }
-
-        #girls_index_kate {
-            margin-left: 5%;
-            margin-top: 40px;
-        }
-
-        #index_text_2 #kate_button button {
-            margin-top: 40px;
-            margin-right: 55%;
-
-            background-color: #ba1a63;
-            cursor: pointer;
-            display: inline-block;
-            vertical-align: top;
-
-            -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            -o-border-radius: 8px;
-            border-radius: 8px;
-
-            -webkit-box-shadow: 2px 2px 5px #888;
-            -moz-box-shadow: 2px 2px 5px #888;
-            -o-box-shadow: 2px 2px 5px #888;
-            box-shadow: 2px 2px 5px #888;
-      
-            -webkit-transition: all 0.5s ease-in-out;
-            -moz-transition: all 0.5s ease-in-out;
-            -o-transition: all 0.5s ease-in-out;
-            transition: all 0.5s ease-in-out;
-      
-            color: #fff;
-            font-family:Bitter;
-            font-size: 100%;
-            height: 25px;
-            width: 180px;
-            margin-bottom: 200px;
-        }
-
-        #index_text_2 {
-            float: right;
-            margin-right: 65%;
-        }
-
-        #index_text_2 h1 {
-            font-family: bitter;
-            font-weight: bold;
-            padding-bottom: 20px;
-            font-size: 112%;
-            margin-top: 27px;
-        }
-
-        #index_text_2 h2 {
-            font-family: myriad pro;
-            font-weight: bold;
-            padding-top: 10px;
-        }
-
-        #index_text_2 p {
-            font-family: myriad pro;
-        }
-
-    // logo
-
-    #kubmo_logo_2 {
-        margin-left: 5%;
-        margin-top: 15px;
-    }
-
-    #kubmo_logo_2 #line {
-        border-bottom-style: solid;
-        border-bottom-width: 1px;
-        color: #000000;
-        margin-right: 180px;
-        margin-top: 15px;
-    }
-
-
-    //marriel
-        
-    #marriel_img {
-        width: 220px;
-        margin-left: 5%;
-        margin-top: 30px;
-        float: left;
-        padding-right: 30px;
-        margin-bottom: 15px;
-    }
-
-    .text {
-        margin-top: 30px;
-        font-family: myriad pro;
-        width: 70%;
-        margin-left: 5%;
-    }
-
-    .text h1 {
+    #index_text h1{
         font-family: bitter;
-        font-size: 24px;
-        margin-bottom: 15px;
-    }
-
-    .text h2 {
         font-weight: bold;
-        position: inline-block;
-        float: left;
-        line-height: 25px;
+        padding-bottom: 20px;
+        font-size: 112%;
+        margin-top: 27px;
     }
 
-    .text p {
-        padding-bottom: 15px;
-        line-height: 25px;
+    #index_text h2 {
+        font-family: myriad pro;
+        font-weight: bold;
+        padding-top: 10px;
     }
 
-    .text li {
-        line-height: 25px;
-        list-style-type: circle;
-        margin-left: 20px;
+    #index_text p {
+        font-family: myriad pro;
     }
 
-    .text .list_of_tech {
-        list-style-type: circle;
-        margin-left: 30px;
+    #girls_index_kate {
+        margin-left: 5%;
+        margin-top: 40px;
     }
 
-    #click_marriel {
-        position: relative;
+    #index_text_2 #kate_button button {
+        margin-top: 40px;
+        margin-right: 55%;
 
         background-color: #ba1a63;
         cursor: pointer;
@@ -420,407 +302,563 @@ and (min-width : 1824px) {
         -moz-box-shadow: 2px 2px 5px #888;
         -o-box-shadow: 2px 2px 5px #888;
         box-shadow: 2px 2px 5px #888;
-      
+  
         -webkit-transition: all 0.5s ease-in-out;
         -moz-transition: all 0.5s ease-in-out;
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
-      
-        font-family:Bitter;
-        font-size: 130%;
-        padding-left: 20px;
-        padding-right: 20px;
-        padding-top:10px;
-        padding-bottom: 10px;
-        margin-top: 30px;
-        margin-left: 60px;
-    }
-    #click_marriel a {
-        color: white;
-        text-decoration: none;
-    }
-
-    //email thank you
-    .thanks {
-        margin-left: 65px;
-        padding-top: 45px;
-        font-family: 'Bitter', serif;
-        font-size: 20px; 
-    }
-
-    //blog
-
-    #blog_content {
-        margin-right: 150px;
-    }
-
-    #blog_content #kubmo_logo_2 {
-        margin-bottom: 30px;
-    }
-
-    //about nav 
-    #about_nav {
-        ul {
-            display: inline-block;
-            width: 85%;
-            height: 50px;
-            background-color:#404041;
-            margin-left: 3.5%;
-            margin-top: -2px;
-        }
-
-        li {
-            float: left;
-            margin-left: 2%;
-        }
-
-        a {
-            margin-right: 80px;
-            margin-top: 20px;
-            color: white;
-            text-decoration: none;
-            font-family: 'Bitter', serif;
-        }
-
-        a:hover {
-            color: #ba1a63;
-        }
-
-        li a {
-            display: block;
-            background-color: inherit;
-            color:  #fff ;
-        }
-
-        li ul {
-            display: none; 
-            width: 10em; /* Width to help Opera out */
-            background-color: inherit;
-        }
-
-        li:hover ul {
-            position: relative;
-            z-index: 1; 
-            display: block;
-        }
-        
-        li:hover li {
-            float: none; 
-            margin-top: 1px;
-        }
-    }    
-    //Get involved- about 
-    #involved {
-        margin-left: 5%;
-        margin-top: 30px;
-        width: 60%;
-    }
-
-    #involved h1 {
-        font-family: bitter;
-        font-size: 125%;
-        color: #404041;
-    }
-
-    #involved p {
-        font-family: myriad pro;
-        margin-top: 20px;
-    }
-
-    #share {
-        display: inline-block;
-        position: relative;
-        margin-left: 30%;
-        margin-top: 10px;
-        width: 120px;
-        padding-bottom: 80px;
-    }
-
-    #facebook_about img {
-        width: 50px;
-        position: absolute;
-        cursor: pointer;
-    }
-
-    #twitter_about img {
-        width: 70px;
-        margin-left: 37%;
-        position: absolute;
-        margin-top: 2px;
-    }
-
-    #tumblr_about img {
-        width: 33px;
-        margin-left: 100%;
-        position: absolute;
-        margin-top: 8px;
-    }
-
-    #share_text {
-        font-family: bitter;
-        color: white;
-        font-size: 90%;
-        margin-top: 20px;
-        padding-top: 7px;
-        padding-bottom: 7px;
-        padding-left: 15px;
-        position: absolute;
-        width: 70px;
-        background-color: #ba1a63;
-        text-transform: uppercase;
-
-        -webkit-border-radius: 8px;
-            -moz-border-radius: 8px;
-            -o-border-radius: 8px;
-            border-radius: 8px;
-
-            -webkit-box-shadow: 2px 2px 5px #888;
-            -moz-box-shadow: 2px 2px 5px #888;
-            -o-box-shadow: 2px 2px 5px #888;
-            box-shadow: 2px 2px 5px #888;
-      
-            -webkit-transition: all 0.5s ease-in-out;
-            -moz-transition: all 0.5s ease-in-out;
-            -o-transition: all 0.5s ease-in-out;
-            transition: all 0.5s ease-in-out;
-
-    }
-
-    #fund {
-        position: inline-block;
-        cursor: pointer;
-        background-color: #ba1a63;
-        padding-top: 7px;
-        padding-bottom: 4px;
-        padding-left: 10px;
-        margin-bottom: 40px;
-        margin-top: 20px;
-        text-decoration: none;
-        font-family: bitter;
-        text-color: white;
-        font-size: 14px;
-        text-transform: uppercase;
-            
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-      
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-    }
-
-    #fund a {
-        text-decoration: none;  
+  
         color: #fff;
+        font-family:Bitter;
+        font-size: 100%;
+        height: 25px;
+        width: 180px;
+        margin-bottom: 200px;
     }
 
-    #help h2 {
+    #index_text_2 {
+        float: right;
+        margin-right: 65%;
+    }
+
+    #index_text_2 h1 {
         font-family: bitter;
-        color: white;
-        font-size: 90%;
-        padding-top: 9px;
-        padding-bottom: 8px;
-        padding-left: 15px;
-        width: 85px;
-        background-color: #ba1a63;
-        text-transform: uppercase;
-        margin-top: -44px;
-        margin-bottom: 40px;
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-      
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
+        font-weight: bold;
+        padding-bottom: 20px;
+        font-size: 112%;
+        margin-top: 27px;
     }
 
-    #about_mail img {
-        width: 52px;
-        margin-left: 30%;
-        margin-top: 10px;
-    }
-
-    #about_click {
-        font-family: bitter;
-        color: white;
-        font-size: 90%;
-        padding-top: 9px;
-        padding-bottom: 8px;
-        padding-left: 7px;
-        width: 60px;
-        background-color: #ba1a63;
-        text-transform: uppercase;
-        margin-bottom: 60px;
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-      
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-    }
-
-    #about_click p {
-        font-family: bitter;
-        cursor: pointer;
-    }
-
-    #join_email input {
-        width: 200px;
-        height: 30px;
-        margin-top: 25px;
-        margin-right: 20px;
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-    }
-
-    //what we do- about 
-
-    #main_image {
-        margin-left: 10%; 
-        margin-top: 30px;  
-    }
-
-    #main_image img {
-        width: 50%;
-    }
-
-    #what_text img {
-        padding-top: 50px;
-        width: 30px;
-        position: absolute;
-        margin-top: -26px;
-    }
-
-    #what_text {
-        margin-left: 5%;
-        position: relative;
-        display: inline-block;
-        width: 75%;
-        position: relative;
-        margin-top: 40px;
-        border-top-style: solid;
-        border-top-width: 1px;
-        border-top-color: #404041;
-    }
-
-    #what_text h1 {
-        font-family: bitter;
-        font-size: 120%;
-        color: #404041;
-        margin-bottom: 15px;
-        margin-left: 40px;
-        padding-top: 30px;
-    }
-
-    #what_text p {
-        font-family: myriad pro;
-        margin-bottom: 30px;
-        margin-left: 40px;
-    }
-
-
-
-    //story- about
-
-    #story_content {
-        margin-left: 5%;
-        margin-top: 30px;
-        width: 75%;
-    } 
-
-    #story_content h1 {
+    #index_text_2 h2 {
         font-family: myriad pro;
         font-weight: bold;
-        color: #404041;
-        margin-bottom: 15px;
+        padding-top: 10px;
     }
 
-    #story_content p {
+    #index_text_2 p {
         font-family: myriad pro;
-        margin-bottom: 30px;
     }
 
-    //blog
+// logo
 
-    #blog_content {
-        width: 75%;
-        margin-left: 5%;
-        margin-top: 30px;
-    }
-
-    #blog_content h1 {
-        font-family: bitter;
-        color: #404041;
-        font-size: 120%;
-        margin-bottom: 15px;
-        margin-top: 5px;
-    }
-
-    #blog_content h2 {
-        font-family: myriad pro;
-        color: black;
-        margin-bottom: 10px;
-        font-weight: bold;
-        color: #404041;
-    }
-
-    #blog_content p {
-        font-family: myriad pro;
-        margin-bottom: 15px;
-        font-weight: normal;
-    }
-
-    .blog_date {
-        margin-top: 50px;
-        color: #ba1a63;
-        font-family: myriad pro;
-        font-size: 80%;
-    }
+#kubmo_logo_2 {
+    margin-left: 5%;
+    margin-top: 15px;
 }
+
+#kubmo_logo_2 #line {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    color: #000000;
+    margin-right: 180px;
+    margin-top: 15px;
+}
+
+
+//marriel
+    
+#marriel_img {
+    width: 220px;
+    margin-left: 5%;
+    margin-top: 30px;
+    float: left;
+    padding-right: 30px;
+    margin-bottom: 15px;
+}
+
+.text {
+    margin-top: 30px;
+    font-family: myriad pro;
+    width: 70%;
+    margin-left: 5%;
+}
+
+.text h1 {
+    font-family: bitter;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.text h2 {
+    font-weight: bold;
+    position: inline-block;
+    float: left;
+    line-height: 25px;
+}
+
+.text p {
+    padding-bottom: 15px;
+    line-height: 25px;
+}
+
+.text li {
+    line-height: 25px;
+    list-style-type: circle;
+    margin-left: 20px;
+}
+
+.text .list_of_tech {
+    list-style-type: circle;
+    margin-left: 30px;
+}
+
+#click_marriel {
+    position: relative;
+
+    background-color: #ba1a63;
+    cursor: pointer;
+    display: inline-block;
+    vertical-align: top;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+  
+    font-family:Bitter;
+    font-size: 130%;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top:10px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    margin-left: 60px;
+}
+#click_marriel a {
+    color: white;
+    text-decoration: none;
+}
+
+//email thank you
+.thanks {
+    margin-left: 65px;
+    padding-top: 45px;
+    font-family: 'Bitter', serif;
+    font-size: 20px; 
+}
+
+//blog
+
+#blog_content {
+    margin-right: 150px;
+}
+
+#blog_content #kubmo_logo_2 {
+    margin-bottom: 30px;
+}
+
+//about nav 
+#about_nav {
+    ul {
+        display: inline-block;
+        width: 85%;
+        height: 50px;
+        background-color:#404041;
+        margin-left: 3.5%;
+        margin-top: -2px;
+    }
+
+    li {
+        float: left;
+        margin-left: 2%;
+    }
+
+    a {
+        margin-right: 80px;
+        margin-top: 20px;
+        color: white;
+        text-decoration: none;
+        font-family: 'Bitter', serif;
+    }
+
+    a:hover {
+        color: #ba1a63;
+    }
+
+    li a {
+        display: block;
+        background-color: inherit;
+        color:  #fff ;
+    }
+
+    li ul {
+        display: none; 
+        width: 10em; /* Width to help Opera out */
+        background-color: inherit;
+    }
+
+    li:hover ul {
+        position: relative;
+        z-index: 1; 
+        display: block;
+    }
+    
+    li:hover li {
+        float: none; 
+        margin-top: 1px;
+    }
+}    
+//Get involved- about 
+#involved {
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 60%;
+}
+
+#involved h1 {
+    font-family: bitter;
+    font-size: 125%;
+    color: #404041;
+}
+
+#involved p {
+    font-family: myriad pro;
+    margin-top: 20px;
+}
+
+#share {
+    display: inline-block;
+    position: relative;
+    margin-left: 30%;
+    margin-top: 10px;
+    width: 120px;
+    padding-bottom: 80px;
+}
+
+#facebook_about img {
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+}
+
+#twitter_about img {
+    width: 70px;
+    margin-left: 37%;
+    position: absolute;
+    margin-top: 2px;
+}
+
+#tumblr_about img {
+    width: 33px;
+    margin-left: 100%;
+    position: absolute;
+    margin-top: 8px;
+}
+
+#share_text {
+    font-family: bitter;
+    color: white;
+    font-size: 90%;
+    margin-top: 20px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 15px;
+    position: absolute;
+    width: 70px;
+    background-color: #ba1a63;
+    text-transform: uppercase;
+
+    -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+  
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+
+}
+
+#fund {
+    position: inline-block;
+    cursor: pointer;
+    background-color: #ba1a63;
+    padding-top: 7px;
+    padding-bottom: 4px;
+    padding-left: 10px;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    text-decoration: none;
+    font-family: bitter;
+    text-color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+        
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#fund a {
+    text-decoration: none;  
+    color: #fff;
+}
+
+#help h2 {
+    font-family: bitter;
+    color: white;
+    font-size: 90%;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 15px;
+    width: 85px;
+    background-color: #ba1a63;
+    text-transform: uppercase;
+    margin-top: -44px;
+    margin-bottom: 40px;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#about_mail img {
+    width: 52px;
+    margin-left: 30%;
+    margin-top: 10px;
+}
+
+#about_click {
+    font-family: bitter;
+    color: white;
+    font-size: 90%;
+    padding-top: 9px;
+    padding-bottom: 8px;
+    padding-left: 7px;
+    width: 60px;
+    background-color: #ba1a63;
+    text-transform: uppercase;
+    margin-bottom: 60px;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 2px 2px 5px #888;
+    -moz-box-shadow: 2px 2px 5px #888;
+    -o-box-shadow: 2px 2px 5px #888;
+    box-shadow: 2px 2px 5px #888;
+  
+    -webkit-transition: all 0.5s ease-in-out;
+    -moz-transition: all 0.5s ease-in-out;
+    -o-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+#about_click p {
+    font-family: bitter;
+    cursor: pointer;
+}
+
+#join_email input {
+    width: 200px;
+    height: 30px;
+    margin-top: 25px;
+    margin-right: 20px;
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -o-border-radius: 8px;
+    border-radius: 8px;
+}
+
+//what we do- about 
+
+#main_image {
+    margin-left: 10%; 
+    margin-top: 30px;  
+}
+
+#main_image img {
+    width: 50%;
+}
+
+#what_text img {
+    padding-top: 50px;
+    width: 30px;
+    position: absolute;
+    margin-top: -26px;
+}
+
+#what_text {
+    margin-left: 5%;
+    position: relative;
+    display: inline-block;
+    width: 75%;
+    position: relative;
+    margin-top: 40px;
+    border-top-style: solid;
+    border-top-width: 1px;
+    border-top-color: #404041;
+}
+
+#what_text h1 {
+    font-family: bitter;
+    font-size: 120%;
+    color: #404041;
+    margin-bottom: 15px;
+    margin-left: 40px;
+    padding-top: 30px;
+}
+
+#what_text p {
+    font-family: myriad pro;
+    margin-bottom: 30px;
+    margin-left: 40px;
+}
+
+
+
+//story- about
+
+#story_content {
+    margin-left: 5%;
+    margin-top: 30px;
+    width: 75%;
+} 
+
+#story_content h1 {
+    font-family: myriad pro;
+    font-weight: bold;
+    color: #404041;
+    margin-bottom: 15px;
+}
+
+#story_content p {
+    font-family: myriad pro;
+    margin-bottom: 30px;
+}
+
+//blog
+
+#blog_content {
+    width: 75%;
+    margin-left: 5%;
+    margin-top: 30px;
+}
+
+#blog_content h1 {
+    font-family: bitter;
+    color: #404041;
+    font-size: 120%;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+#blog_content h2 {
+    font-family: myriad pro;
+    color: black;
+    margin-bottom: 10px;
+    font-weight: bold;
+    color: #404041;
+}
+
+#blog_content p {
+    font-family: myriad pro;
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.blog_date {
+    margin-top: 50px;
+    color: #ba1a63;
+    font-family: myriad pro;
+    font-size: 80%;
+}
+
 
 /* Smartphones (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
-/* Styles */
+/* Styles for all iphones, portrait and landscape */
+        
+    @media only screen and (orientation : landscape) {
+        /* Styles for landscape iphone only */
+    }
+
+
+    @media only screen and (orientation : portrait) {
+        /* Styles for portrait iphone only */
+    }
+
 }
 
 /* iPads (portrait and landscape) ----------- */
 @media only screen 
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
-/* Styles */
+/* Styles for all ipads, portrait and landscape */
+
+    @media only screen and (orientation : landscape) {
+        /* Styles for landscape ipad only */
+    }
+
+
+    @media only screen and (orientation : portrait) {
+        /* Styles for portrait ipad only */
+    }
 }  
+
+
+/*Retina Screens - pixel density 1.5+ */
+@media
+only screen and (-webkit-min-device-pixel-ratio : 1.5),
+only screen and (min-device-pixel-ratio : 1.5) {
+   /* Styles for retina screens - ipad and iphone */
+
+    @media only screen 
+        and (min-device-width : 320px) 
+        and (max-device-width : 480px) {
+            /*iphone retina only*/
+    }
+
+    @media only screen 
+        and (min-device-width : 768px) 
+        and (max-device-width : 1024px) {
+            /*ipad retina only*/
+    }
+}
 
 
         
