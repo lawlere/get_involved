@@ -1,83 +1,77 @@
-<%= render 'shared/kubmo_logo_2' %>
+<%= render 'shared/kubmo_logo_2' %>    
 
-<div id="about_nav">
+<div id="lifecycle">
+	<img src="images/number_1.png" alt="number one"/>
+	<p>Teens in the U.S. spread the movement through their communities.</p>
+	<img src="images/number_2.png" alt="number two"/>
+	<p>Kubmo package includes a smartphone, applications, a data plan, and access to Kubmo workshops and guidance.</p>
+	<img src="images/number_3.png" alt="number three"/>
+	<p>Young women in Kenya recieve the Kubmo package, do a workshop, and start their company.</p>
+	<img src="images/number_4.png" alt="number four"/>
+	<p>Once the companies are developed, they can sell their products on an online marketplace.</p>
+</div>
 
-	<ul id="about_navbar">
-	  <li id="donate">
-        <a href="About">Get Involved</a>
-      </li>
-
-      <li>
-        <a href="What">What We Do</a>
-      </li>
-      
-      <li>
-        <a href="Story">The Story</a>
-      </li>
-    </ul>
-    
-</div>      
-
-<div id="involved">
-
-	<div id="donate_section">
-		<h1> Donate </h1>
-			<p> Help get a device to one of the young women in Kenya. For every $150 we raise, we can send one full smartphone package to Kenya. </p>
-				<button id="fund">
-					<a href="http://www.indiegogo.com/projects/kubmo">
-					Help fund a device
-					</a>
-				</button>	
-	</div>	
-
+<div id="get_involved_sidebar">
+	<div id="fund">	
+		<p>Help us fund smartphone packages and put on our first workshop in Kenya</p>
+		<button id="fund">
+			<a href="http://www.indiegogo.com/projects/kubmo">
+				Help fund a device
+			</a>
+		</button>
+	</div>
+	
 	<div id="spread">
-		<h1> Spread the message </h1>
-			<p> Create a movement within your group of friends. Share the Kubmo story through your social community to empower young women in other parts of the world. Join our communities on Facebook, Twitter, and Tumblr. </p>
-			
-			<h2 id="share_text">Share:</h2>
+		<p>Spread the message to your followers</p>
+		<ul id="share">
+			<li>
+    			<a id="facebook_about" href="https://www.facebook.com/pages/Kubmo/502648673114461">
+      			<img src="/images/facebook_black.jpeg" />
+    			</a>
+  			</li>
+  
+  			<li>
+    			<a id="twitter_about" href="https://twitter.com/Kubmo">
+     			 <img src="/images/twitter_black.jpeg" />
+    			</a>
+  			</li>
 
-			<ul id="share">
-				<li>
-        			<a id="facebook_about" href="https://www.facebook.com/pages/Kubmo/502648673114461">
-          			<img src="/images/facebook_black.jpeg" />
-        			</a>
-      			</li>
-      
-      			<li>
-        			<a id="twitter_about" href="https://twitter.com/Kubmo">
-         			 <img src="/images/twitter_black.jpeg" />
-        			</a>
-      			</li>
+  			<li>
+    			<a id="tumblr_about" href="http://kubmo.tumblr.com/">
+     			 <img src="/images/tumblr_black.jpg" />
+    			</a>
+  			</li>
+      	</ul>
+ 	</div>
 
-      			<li>
-        			<a id="tumblr_about" href="http://kubmo.tumblr.com/">
-         			 <img src="/images/tumblr_black.jpg" />
-        			</a>
-      			</li>
-      		</ul>	
+ 	<div id="email_us">
+ 		<p>Partner with us or become a member of our advisory board</p>
+ 		<a id="about_mail" href="mailto:kubmoteam@gmail.com?subject=Hello Kubmo">
+        	<img src="/images/mail_black.jpeg"/>
+        </a>
+    </div>
+    
+    <div id="sign_up">
+    	<p>Sign up for updates</p>
+    	<form action= "/signup">
+			<input type="text" id="field" name="email" placeholder="Email"> 
+				<button id="about_click"> 
+					<p>Join</p>
+				</button>
+			</input>	
+		</form>
 	</div>
+</div>
 
-	<div id="help">
-		<h1> Help us build the Kubmo program </h1>
-			<p> Whether you're an entrepreneur, a global activist, or just interested in helping young women around the world, you can help us form the program. Kubmo was made to be a network of girls and women who connect, collaborate, and sponsor one another. </p>
-
-			<a id="about_mail" href="mailto:kubmoteam@gmail.com?subject=Hello Kubmo">
-          		<img src="/images/mail_black.jpeg"/>
-        	</a>
-
-        	<h2>Email us:</h2>
-	</div>
-
-	<div id="join_email">
-		<h1> Join our mailing list </h1>
-			<p> Enter your email address, we'll keep you updated! </p>
-				<form action= "/signup">
-					<input type="text" id="field" name="email" placeholder="Email"> 
-						<button id="about_click"> 
-							<p>Join</p>
-						</button>
-					</input>	
-				</form
-	</div>
+	<div id="story_content">
+  <h1>Empowering women in developing countries. </h1>
+    <p>It all started with our passion to do something that would have a positive social impact on young women. Being two young women ourselves, we were drawn to start a movement to support other women all across the world, specifically in developing countries. After researching, we decided to start by focusing our efforts in Kenya.</p>
+  <h1>Facebook lets us connect with girls 8,000 miles away. </h1>
+    <p>Through Facebook, we were able to talk to over 100 young women living in Kenya. They told us stories of who they were and what their lives were like in Kenya. We developed many personal relationships with these young women. We are devoted to our cause and are driven to make a difference in our friends' lives now.</p>
+  <h1>Financial independence for women.</h1>
+    <p>Talking with these girls in Kenya made us realize that they needed to be financially independent from the men in their communities in order to solve a majority of the issues they are facing. Whether they are supporting their families, living in a patriarchal tribe environment, or uneducated, access to their own personal money stream was a necessity.</p>
+  <h1>Mobile entrepreneurs.</h1>
+    <p>The majority of young women we've talked to want to start their own business. The ideas spanned from selling their own jewelry, to opening a safe house for orphaned children. But they don't have all of the resources they need to get a start. Once they have an idea, we will support their growth by providing a smartphone loaded with the applications they need to use to start their own business venture.</p>  
+</div> 
 
 </div>	

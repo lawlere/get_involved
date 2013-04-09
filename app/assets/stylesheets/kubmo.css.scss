@@ -96,28 +96,9 @@ $pink: #ba1a63;
 }
 
 // Landing Page 
-#kubmo_logo img {
-    width: 350px;
-    position: relative;
-    margin-left: 5%;
-    margin-top: 100px;
-    z-index: 10;
-}
 
-#box {
-  width: 350px;
-  height: 305px;
-  margin-top: 25px;
-  margin-left: 5%;
-  background-color: #A8A8A8;
-  opacity: 0.6;
-  filter: alpha(opacity=60); /* For IE8 and earlier */
-  z-index: -999;
-  
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    -o-border-radius: 3px;
-    border-radius: 3px;
+#landing_page {
+    background-image: url("/images/landing_page_background.png");
 }
 
 #click {
@@ -153,195 +134,9 @@ $pink: #ba1a63;
     width: 180px;
 }
 
-#mission {
-    position: absolute;
-    font-family: myriad pro;
-    font-size: 112.5%;
-    color: white;
-    letter-spacing: 1px;
-    line-height: 25px;
-    z-index: 10px;
-    margin-left: 8%;
-    margin-top: -283px;
-    width: 320px;
-}
-
-#landing_description {
-    position: absolute;
-    font-family: myriad pro;
-    font-size: 90%;
-    color: white;
-    letter-spacing: 1px;
-    line-height: 20px;
-    z-index: 10px;
-    margin-left: 8%;
-    margin-top: -175px;
-    width: 315px;
-}
-
-#Meet a {
-    position: absolute;
-    color: white;
-    text-decoration: none;
-    font-family: myriad pro;
-    font-size: 100%;
-    letter-spacing: .9px;
-    margin-left: 8.5%;
-    font-weight: lighter;
-}
-
-#triangle {
-    position: absolute;
-    width: 10px;
-    margin-left: 45%;
-}
-
-#Meet a h3 {
-    margin-top: -60px;
-}
-
-#Meet a:hover {
-    color:$pink;
-    font-weight: bold;
-}
-
-
-#background_image img {
-    width: 1800px;
-    position: absolute;
-}
-
 #photo_credit {
     color: white;
 }
-
-#girls_index {
-    height: 500px;
-    width: 100%;
-    background-color: white;
-    margin-top: 180px;
-    position: absolute;
-}
-
-    #girls_index_marriel {
-        margin-left: 5%;
-        margin-top: 70px;
-    }
-
-    #index_text #marriel_button button {
-        margin-top: 40px;
-        margin-right: 55%;
-        margin-bottom: 10px;
-
-        background-color: $pink;
-        cursor: pointer;
-        display: inline-block;
-        vertical-align: top;
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-  
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-  
-        color: #fff;
-        font-family:Bitter;
-        font-size: 100%;
-        height: 25px;
-        width: 180px;
-    }
-
-    #index_text {
-        float: right;
-        margin-right: 60%;
-    }
-
-    #index_text h1{
-        font-family: bitter;
-        font-weight: bold;
-        padding-bottom: 20px;
-        font-size: 112%;
-        margin-top: 27px;
-    }
-
-    #index_text h2 {
-        font-family: myriad pro;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-
-    #index_text p {
-        font-family: myriad pro;
-    }
-
-    #girls_index_kate {
-        margin-left: 5%;
-        margin-top: 40px;
-    }
-
-    #index_text_2 #kate_button button {
-        margin-top: 40px;
-        margin-right: 55%;
-
-        background-color: $pink;
-        cursor: pointer;
-        display: inline-block;
-        vertical-align: top;
-
-        -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-  
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-  
-        color: #fff;
-        font-family:Bitter;
-        font-size: 100%;
-        height: 25px;
-        width: 180px;
-        margin-bottom: 200px;
-    }
-
-    #index_text_2 {
-        float: right;
-        margin-right: 65%;
-    }
-
-    #index_text_2 h1 {
-        font-family: bitter;
-        font-weight: bold;
-        padding-bottom: 20px;
-        font-size: 112%;
-        margin-top: 27px;
-    }
-
-    #index_text_2 h2 {
-        font-family: myriad pro;
-        font-weight: bold;
-        padding-top: 10px;
-    }
-
-    #index_text_2 p {
-        font-family: myriad pro;
-    }
 
 // logo
 
@@ -359,8 +154,13 @@ $pink: #ba1a63;
 }
 
 
-//marriel
+//the cause (people/marriel.html.erb)
     
+#the_cause {
+    background-image: url("/images/marriel_facebook.png");
+    background-repeat: no-repeat;
+}
+
 #marriel_img {
     width: 220px;
     margin-left: 5%;
@@ -461,237 +261,12 @@ $pink: #ba1a63;
     margin-bottom: 30px;
 }
 
-//about nav 
-#about_nav {
-    ul {
-        display: inline-block;
-        width: 85%;
-        height: 50px;
-        background-color:#404041;
-        margin-left: 3.5%;
-        margin-top: -2px;
-    }
 
-    li {
-        float: left;
-        margin-left: 2%;
-    }
+//About
 
-    a {
-        margin-right: 80px;
-        margin-top: 20px;
-        color: white;
-        text-decoration: none;
-        font-family: 'Bitter', serif;
-    }
-
-    a:hover {
-        color: $pink;
-    }
-
-    li a {
-        display: block;
-        background-color: inherit;
-        color:  #fff ;
-    }
-
-    li ul {
-        display: none; 
-        width: 10em; /* Width to help Opera out */
-        background-color: inherit;
-    }
-
-    li:hover ul {
-        position: relative;
-        z-index: 1; 
-        display: block;
-    }
-    
-    li:hover li {
-        float: none; 
-        margin-top: 1px;
-    }
-}    
-//Get involved- about 
-#involved {
-    margin-left: 5%;
-    margin-top: 30px;
-    width: 60%;
-}
-
-#involved h1 {
-    font-family: bitter;
-    font-size: 125%;
-    color: #404041;
-}
-
-#involved p {
-    font-family: myriad pro;
-    margin-top: 20px;
-}
-
-#share {
-    display: inline-block;
-    position: relative;
-    margin-left: 30%;
-    margin-top: 10px;
-    width: 120px;
-    padding-bottom: 80px;
-}
-
-#facebook_about img {
-    width: 50px;
-    position: absolute;
-    cursor: pointer;
-}
-
-#twitter_about img {
-    width: 70px;
-    margin-left: 37%;
-    position: absolute;
-    margin-top: 2px;
-}
-
-#tumblr_about img {
-    width: 33px;
-    margin-left: 100%;
-    position: absolute;
-    margin-top: 8px;
-}
-
-#share_text {
-    font-family: bitter;
-    color: white;
-    font-size: 90%;
-    margin-top: 20px;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    padding-left: 15px;
-    position: absolute;
-    width: 70px;
-    background-color: $pink;
-    text-transform: uppercase;
-
-    -webkit-border-radius: 8px;
-        -moz-border-radius: 8px;
-        -o-border-radius: 8px;
-        border-radius: 8px;
-
-        -webkit-box-shadow: 2px 2px 5px #888;
-        -moz-box-shadow: 2px 2px 5px #888;
-        -o-box-shadow: 2px 2px 5px #888;
-        box-shadow: 2px 2px 5px #888;
-  
-        -webkit-transition: all 0.5s ease-in-out;
-        -moz-transition: all 0.5s ease-in-out;
-        -o-transition: all 0.5s ease-in-out;
-        transition: all 0.5s ease-in-out;
-
-}
-
-#fund {
-    position: inline-block;
-    cursor: pointer;
-    background-color: $pink;
-    padding-top: 7px;
-    padding-bottom: 4px;
-    padding-left: 10px;
-    margin-bottom: 40px;
-    margin-top: 20px;
-    text-decoration: none;
-    font-family: bitter;
-    text-color: white;
-    font-size: 14px;
-    text-transform: uppercase;
-        
-
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
-
-    -webkit-box-shadow: 2px 2px 5px #888;
-    -moz-box-shadow: 2px 2px 5px #888;
-    -o-box-shadow: 2px 2px 5px #888;
-    box-shadow: 2px 2px 5px #888;
-  
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-#fund a {
-    text-decoration: none;  
-    color: #fff;
-}
-
-#help h2 {
-    font-family: bitter;
-    color: white;
-    font-size: 90%;
-    padding-top: 9px;
-    padding-bottom: 8px;
-    padding-left: 15px;
-    width: 85px;
-    background-color: $pink;
-    text-transform: uppercase;
-    margin-top: -44px;
-    margin-bottom: 40px;
-
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
-
-    -webkit-box-shadow: 2px 2px 5px #888;
-    -moz-box-shadow: 2px 2px 5px #888;
-    -o-box-shadow: 2px 2px 5px #888;
-    box-shadow: 2px 2px 5px #888;
-  
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-#about_mail img {
-    width: 52px;
-    margin-left: 30%;
-    margin-top: 10px;
-}
-
-#about_click {
-    font-family: bitter;
-    color: white;
-    font-size: 90%;
-    padding-top: 9px;
-    padding-bottom: 8px;
-    padding-left: 7px;
-    width: 60px;
-    background-color: $pink;
-    text-transform: uppercase;
-    margin-bottom: 60px;
-
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
-
-    -webkit-box-shadow: 2px 2px 5px #888;
-    -moz-box-shadow: 2px 2px 5px #888;
-    -o-box-shadow: 2px 2px 5px #888;
-    box-shadow: 2px 2px 5px #888;
-  
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-}
-
-#about_click p {
-    font-family: bitter;
-    cursor: pointer;
+#lifecycle {
+    background-image: url("/images/lifecycle_03.png");
+    background-repeat:no-repeat;
 }
 
 #join_email input {
@@ -706,54 +281,7 @@ $pink: #ba1a63;
     border-radius: 8px;
 }
 
-//what we do- about 
 
-#main_image {
-    margin-left: 10%; 
-    margin-top: 30px;  
-}
-
-#main_image img {
-    width: 50%;
-}
-
-#what_text img {
-    padding-top: 50px;
-    width: 30px;
-    position: absolute;
-    margin-top: -26px;
-}
-
-#what_text {
-    margin-left: 5%;
-    position: relative;
-    display: inline-block;
-    width: 75%;
-    position: relative;
-    margin-top: 40px;
-    border-top-style: solid;
-    border-top-width: 1px;
-    border-top-color: #404041;
-}
-
-#what_text h1 {
-    font-family: bitter;
-    font-size: 120%;
-    color: #404041;
-    margin-bottom: 15px;
-    margin-left: 40px;
-    padding-top: 30px;
-}
-
-#what_text p {
-    font-family: myriad pro;
-    margin-bottom: 30px;
-    margin-left: 40px;
-}
-
-
-
-//story- about
 
 #story_content {
     margin-left: 5%;
