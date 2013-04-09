@@ -7,7 +7,8 @@
     <link rel="stylesheet" type="text/css" href="/assets/reset.css">
     <link href='http://fonts.googleapis.com/css?family=Bitter:400,700,400italic' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-    
+    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <%= stylesheet_link_tag "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
@@ -16,7 +17,7 @@
   </head>
 
 
-  <body class="<%= controller_name %> <%= action_name %> contain">
+  <body class="<%= controller_name %> contain">
     <div class="top_nav">
       <ul id="navbar">
         <li>
@@ -24,15 +25,15 @@
         </li>      
 
         <li>
-          <a <% if action_name == 'about' %> class="active" <% end %> href="about">About</a>
+          <a <% if controller_name  == 'about' %> class="active" <% end %> href="about">About</a>
         </li>
         
         <li>
-          <a <% if action_name == 'cause' %> class="active" <% end %> href="cause">The Cause</a>
+          <a <% if controller_name  == 'cause' %> class="active" <% end %> href="cause">The Cause</a>
         </li>
 
         <li>
-          <a id="blog" <% if action_name == 'blog' %> class="active" <% end %>  href="blog">Blog</a>
+          <a id="blog" <% if controller_name == 'blog' %> class="active" <% end %>  href="blog">Blog</a>
         </li>  
 
         <li id="donate">
