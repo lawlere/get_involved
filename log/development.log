@@ -66057,3 +66057,64 @@ Processing by BlogController#index as HTML
   Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
   Rendered blog/index.html.erb within layouts/application (0.6ms)
 Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-09 18:25:38 -0700
+Processing by BlogController#index as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered blog/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 9.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/home" for 127.0.0.1 at 2013-04-09 18:25:40 -0700
+Processing by HomeController#index as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT "users".* FROM "users" 
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered home/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-09 18:35:01 -0700
+Processing by BlogController#index as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered blog/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 11ms (Views: 10.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cause" for 127.0.0.1 at 2013-04-09 18:35:02 -0700
+Processing by CauseController#index as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered shared/_get_involved_sidebar.html.erb (0.0ms)
+  Rendered cause/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 9.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-04-09 18:35:04 -0700
+Processing by AboutController#index as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered shared/_get_involved_sidebar.html.erb (0.0ms)
+  Rendered about/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 9.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/blog" for 127.0.0.1 at 2013-04-09 18:35:06 -0700
+Processing by BlogController#index as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered blog/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/about" for 127.0.0.1 at 2013-04-09 18:35:08 -0700
+Processing by AboutController#index as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered shared/_get_involved_sidebar.html.erb (0.0ms)
+  Rendered about/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 9ms (Views: 8.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/cause" for 127.0.0.1 at 2013-04-09 18:35:09 -0700
+Processing by CauseController#index as HTML
+  Rendered shared/_kubmo_logo_2.html.erb (0.0ms)
+  Rendered shared/_get_involved_sidebar.html.erb (0.0ms)
+  Rendered cause/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 9ms (Views: 8.6ms | ActiveRecord: 0.0ms)
