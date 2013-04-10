@@ -4,52 +4,62 @@
     <title>Kubmo</title>
     <link rel="icon" href="images/logo_07.png" />
 
-    <link rel="stylesheet" type="text/css" href="/assets/reset.css">
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700,900' rel='stylesheet' type='text/css'>
     <link href='http://fonts.googleapis.com/css?family=Droid+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900' rel='stylesheet' type='text/css'>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <%= stylesheet_link_tag "application", :media => "all" %>
+    <%= stylesheet_link_tag "reset", "kubmo", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
     <%= yield(:head) %>
+  
   </head>
 
 
-  <body class="<%= controller_name %> contain">
+  <body class="<%= controller_name %>">
     <div class="top_nav">
       <ul id="navbar">
-        <li>
-          <a id="nav_logo" href="/home">Home</a>
-        </li>      
+        <li class="main">
+          <ul>
+            <li>
+              <a id="nav_logo" href="/home">Home</a>
+            </li>      
 
-        <li>
-          <a <% if controller_name  == 'about' %> class="active" <% end %> href="about">About</a>
+            <li>
+              <a <% if controller_name  == 'about' %> class="active" <% end %> href="about">About</a>
+            </li>
+            
+            <li>
+              <a <% if controller_name  == 'cause' %> class="active" <% end %> href="cause">The Cause</a>
+            </li>
+
+            <li>
+              <a id="blog" <% if controller_name == 'blog' %> class="active" <% end %>  href="blog">Blog</a>
+            </li>  
+          </ul>
         </li>
+
+        <li class="sub">
+          <ul>
+            <li id="donate">
+              <a href="donate" target="_blank">Donate</a>
+            </li>
+
+            <li>
+              <a id="facebook" href="https://www.facebook.com/pages/Kubmo/502648673114461" target="_blank" class="social">Facebook</a>
+            </li>
+            
+            <li>
+              <a id="twitter" href="https://twitter.com/Kubmo" target="_blank" class="social">Twitter</a>
+            </li>
+            <li>
+              <a id="mail" href="mailto:kubmoteam@gmail.com?subject=Hello%20Kubmo" target="_blank" class="social">Email</a>
+            </li>
+          </ul>
+
+        </li>
+       
         
-        <li>
-          <a <% if controller_name  == 'cause' %> class="active" <% end %> href="cause">The Cause</a>
-        </li>
-
-        <li>
-          <a id="blog" <% if controller_name == 'blog' %> class="active" <% end %>  href="blog">Blog</a>
-        </li>  
-
-        <li id="donate">
-          <a href="donate" target="_blank">Donate</a>
-        </li>
-
-        <li>
-          <a id="facebook" href="https://www.facebook.com/pages/Kubmo/502648673114461" target="_blank">Facebook</a>
-        </li>
-        
-        <li>
-          <a id="twitter" href="https://twitter.com/Kubmo" target="_blank">Twitter</a>
-        </li>
-        <li>
-          <a id="mail" href="mailto:kubmoteam@gmail.com?subject=Hello%20Kubmo" target="_blank">Email</a>
-        </li>
       </ul>
    </div>
 
