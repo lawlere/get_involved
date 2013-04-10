@@ -9,30 +9,33 @@ $pink: #a07098;
 @mixin latoBlack() { font-family: 'Lato', Arial, sans-serif; font-weight: 900; }
 
 body { @include lato(); width: 100%; }
+a { color: $pink; text-decoration: none; }
 
 /*---LOGO---*/
 #kubmo_logo_2 {
-    margin-left: 60px;
-    margin-top: 15px;
-    margin-bottom: 15px;
-    width: 300px;
-    height: 66px;
-    background: transparent url('/assets/sprite_global.png');
-    background-position: 0px;
-}
-
+    position: relative;
     a {
-        display: none;
+        display: block;
+        margin-left: 60px;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        width: 300px;
+        height: 66px;
+        background: transparent url('/assets/sprite_global.png');
+        background-position: 0px;
+        text-indent: -9999px;
     }
 
     p {
+        color: #292929;
+        position: absolute;
         font-weight: 300;
         font-size: 120%;
-        color: 292929;
-        position: absolute;
-        margin-left: 280px;
-        margin-top: 40px;
+        left: 330px;
+        top: 26px;
+        @include latoLight();
     }
+}
 
 
 
@@ -175,6 +178,7 @@ body { @include lato(); width: 100%; }
         position: absolute;
         padding-top: 8px;
         padding-bottom: 8px;
+        @include latoBold();
     }
 
     #click {
@@ -206,19 +210,20 @@ body { @include lato(); width: 100%; }
         font-size: 120%;
         font-weight: 300;
         height: 35px;
-        width: 230px;
         text-decoration: none;
         padding-left: 20px;
         padding-right: 20px;
         padding-top: 14px;
         text-transform: uppercase;
+
+        @include latoBlack();
     }
 
     #photo_credit {
         color: white;
         font-size: 80%;
-        margin-left: -250px;
-        margin-top: 770px;
+        margin: 20px 0 0 60px;
+        
     }
 }
 
