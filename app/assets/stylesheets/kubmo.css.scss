@@ -1,4 +1,4 @@
-/*Global Styles*/
+/*---Global Styles---*/
 /*put all global styles and variables here*/
 $pink: #a07098;
 /*fonts*/
@@ -9,6 +9,13 @@ $pink: #a07098;
 @mixin latoBlack() { font-family: 'Lato', Arial, sans-serif; font-weight: 900; }
 
 body { @include lato(); width: 100%; }
+
+/*---LOGO---*/
+#kubmo_logo_2 {
+    margin-left: 5%;
+    margin-top: 15px;
+}
+
 
 /*Top Navigation Bar*/
 .top_nav {
@@ -36,7 +43,7 @@ body { @include lato(); width: 100%; }
             width: 35px;
             height: 35px;
             text-indent: -9999px;
-            margin: 7px 0 0 52px;
+            margin: 7px 0 0 60px;
         }
     }
     .sub { 
@@ -75,17 +82,6 @@ body { @include lato(); width: 100%; }
     }
 
 
-
-    li:active ul {
-        position: relative;
-        z-index: 1; 
-        display: block;
-    }
-    
-    li:active li {
-        float: none; 
-        margin-top: 1px;
-    }
 
     .social {
         background: url('/assets/sprite_global.png') no-repeat;
@@ -133,247 +129,237 @@ body { @include lato(); width: 100%; }
    
 }
 
-// Landing Page 
+/* ---Landing Page--- */
+.home {
+    #landing_page {
+        background-image: url("/images/landing_page_background.png");
+    }
 
-#landing_page {
-    background-image: url("/images/landing_page_background.png");
+    #click {
+        position: relative;
+        /*margin-top: -97px;
+        margin-left: 7.5%;*/
+
+
+        background-color: $pink;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+      
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+      
+        color: #fff;
+        font-family:Bitter;
+        font-size: 100%;
+        height: 35px;
+        width: 180px;
+    }
+
+    #photo_credit {
+        color: white;
+    }
 }
 
-#click {
-    position: relative;
-    /*margin-top: -97px;
-    margin-left: 7.5%;*/
+/* ---About Page--- */
+.about {
+    /*drop styles for about page here*/
+    //About
+
+    #lifecycle {
+        background-image: url("/images/lifecycle_03.png");
+        background-repeat:no-repeat;
+    }
+
+    #join_email input {
+        width: 200px;
+        height: 30px;
+        margin-top: 25px;
+        margin-right: 20px;
+
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+    }
 
 
-    background-color: $pink;
-    cursor: pointer;
-    display: inline-block;
-    vertical-align: top;
 
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
+    #story_content {
+        margin-left: 5%;
+        margin-top: 30px;
+        width: 75%;
+    } 
 
-    -webkit-box-shadow: 2px 2px 5px #888;
-    -moz-box-shadow: 2px 2px 5px #888;
-    -o-box-shadow: 2px 2px 5px #888;
-    box-shadow: 2px 2px 5px #888;
-  
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  
-    color: #fff;
-    font-family:Bitter;
-    font-size: 100%;
-    height: 35px;
-    width: 180px;
+    #story_content h1 {
+        font-family: myriad pro;
+        font-weight: bold;
+        color: #404041;
+        margin-bottom: 15px;
+    }
+
+    #story_content p {
+        font-family: myriad pro;
+        margin-bottom: 30px;
+    }
 }
 
-#photo_credit {
-    color: white;
+/* ---Cause Page--- */
+.cause {
+    /*drop styles for cause page here*/
+    #the_cause {
+        background-image: url("/images/marriel_facebook.png");
+        background-repeat: no-repeat;
+    }
+
+    #marriel_img {
+        width: 220px;
+        margin-left: 5%;
+        margin-top: 30px;
+        float: left;
+        padding-right: 30px;
+        margin-bottom: 15px;
+    }
+
+    .text {
+        margin-top: 30px;
+        font-family: myriad pro;
+        width: 70%;
+        margin-left: 5%;
+    }
+
+    .text h1 {
+        font-family: bitter;
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .text h2 {
+        font-weight: bold;
+        position: inline-block;
+        float: left;
+        line-height: 25px;
+    }
+
+    .text p {
+        padding-bottom: 15px;
+        line-height: 25px;
+    }
+
+    .text li {
+        line-height: 25px;
+        list-style-type: circle;
+        margin-left: 20px;
+    }
+
+    .text .list_of_tech {
+        list-style-type: circle;
+        margin-left: 30px;
+    }
+
+    #click_marriel {
+        position: relative;
+
+        background-color: $pink;
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: top;
+
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        -o-border-radius: 8px;
+        border-radius: 8px;
+
+        -webkit-box-shadow: 2px 2px 5px #888;
+        -moz-box-shadow: 2px 2px 5px #888;
+        -o-box-shadow: 2px 2px 5px #888;
+        box-shadow: 2px 2px 5px #888;
+      
+        -webkit-transition: all 0.5s ease-in-out;
+        -moz-transition: all 0.5s ease-in-out;
+        -o-transition: all 0.5s ease-in-out;
+        transition: all 0.5s ease-in-out;
+      
+        font-family:Bitter;
+        font-size: 130%;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top:10px;
+        padding-bottom: 10px;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+    #click_marriel a {
+        color: white;
+        text-decoration: none;
+    }
+
+    //email thank you
+    .thanks {
+        margin-left: 65px;
+        padding-top: 45px;
+        font-family: 'Bitter', serif;
+        font-size: 20px; 
+    }
+
 }
 
-// logo
+/* ---Blog Page--- */
+.blog {
+    /*drop styles for blog page here*/
 
-#kubmo_logo_2 {
-    margin-left: 5%;
-    margin-top: 15px;
-}
+    #blog_content #kubmo_logo_2 {
+        margin-bottom: 30px;
+    }
 
-#kubmo_logo_2 #line {
-    border-bottom-style: solid;
-    border-bottom-width: 1px;
-    color: #000000;
-    margin-right: 180px;
-    margin-top: 15px;
-}
+    #blog_content {
+        width: 75%;
+        margin-left: 5%;
+        margin-top: 30px;
+        margin-right: 150px;
+    }
 
+    #blog_content h2 {
+        font-family: bitter;
+        color: #404041;
+        font-size: 120%;
+        margin-bottom: 15px;
+        margin-top: 5px;
+    }
 
-//the cause (people/marriel.html.erb)
-    
-#the_cause {
-    background-image: url("/images/marriel_facebook.png");
-    background-repeat: no-repeat;
-}
+    #blog_content h3 {
+        font-family: myriad pro;
+        color: black;
+        margin-bottom: 10px;
+        font-weight: bold;
+        color: #404041;
+    }
 
-#marriel_img {
-    width: 220px;
-    margin-left: 5%;
-    margin-top: 30px;
-    float: left;
-    padding-right: 30px;
-    margin-bottom: 15px;
-}
+    #blog_content p {
+        font-family: myriad pro;
+        margin-bottom: 15px;
+        font-weight: normal;
+    }
 
-.text {
-    margin-top: 30px;
-    font-family: myriad pro;
-    width: 70%;
-    margin-left: 5%;
-}
+    .blog_date {
+        margin-top: 50px;
+        color: $pink;
+        font-family: myriad pro;
+        font-size: 80%;
+    }
 
-.text h1 {
-    font-family: bitter;
-    font-size: 24px;
-    margin-bottom: 15px;
-}
-
-.text h2 {
-    font-weight: bold;
-    position: inline-block;
-    float: left;
-    line-height: 25px;
-}
-
-.text p {
-    padding-bottom: 15px;
-    line-height: 25px;
-}
-
-.text li {
-    line-height: 25px;
-    list-style-type: circle;
-    margin-left: 20px;
-}
-
-.text .list_of_tech {
-    list-style-type: circle;
-    margin-left: 30px;
-}
-
-#click_marriel {
-    position: relative;
-
-    background-color: $pink;
-    cursor: pointer;
-    display: inline-block;
-    vertical-align: top;
-
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
-
-    -webkit-box-shadow: 2px 2px 5px #888;
-    -moz-box-shadow: 2px 2px 5px #888;
-    -o-box-shadow: 2px 2px 5px #888;
-    box-shadow: 2px 2px 5px #888;
-  
-    -webkit-transition: all 0.5s ease-in-out;
-    -moz-transition: all 0.5s ease-in-out;
-    -o-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
-  
-    font-family:Bitter;
-    font-size: 130%;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-top:10px;
-    padding-bottom: 10px;
-    margin-top: 30px;
-    margin-left: 60px;
-}
-#click_marriel a {
-    color: white;
-    text-decoration: none;
-}
-
-//email thank you
-.thanks {
-    margin-left: 65px;
-    padding-top: 45px;
-    font-family: 'Bitter', serif;
-    font-size: 20px; 
-}
-
-//blog
-
-#blog_content {
-    margin-right: 150px;
-}
-
-#blog_content #kubmo_logo_2 {
-    margin-bottom: 30px;
-}
-
-
-//About
-
-#lifecycle {
-    background-image: url("/images/lifecycle_03.png");
-    background-repeat:no-repeat;
-}
-
-#join_email input {
-    width: 200px;
-    height: 30px;
-    margin-top: 25px;
-    margin-right: 20px;
-
-    -webkit-border-radius: 8px;
-    -moz-border-radius: 8px;
-    -o-border-radius: 8px;
-    border-radius: 8px;
-}
-
-
-
-#story_content {
-    margin-left: 5%;
-    margin-top: 30px;
-    width: 75%;
-} 
-
-#story_content h1 {
-    font-family: myriad pro;
-    font-weight: bold;
-    color: #404041;
-    margin-bottom: 15px;
-}
-
-#story_content p {
-    font-family: myriad pro;
-    margin-bottom: 30px;
-}
-
-//blog
-
-#blog_content {
-    width: 75%;
-    margin-left: 5%;
-    margin-top: 30px;
-}
-
-#blog_content h2 {
-    font-family: bitter;
-    color: #404041;
-    font-size: 120%;
-    margin-bottom: 15px;
-    margin-top: 5px;
-}
-
-#blog_content h3 {
-    font-family: myriad pro;
-    color: black;
-    margin-bottom: 10px;
-    font-weight: bold;
-    color: #404041;
-}
-
-#blog_content p {
-    font-family: myriad pro;
-    margin-bottom: 15px;
-    font-weight: normal;
-}
-
-.blog_date {
-    margin-top: 50px;
-    color: $pink;
-    font-family: myriad pro;
-    font-size: 80%;
 }
 
 
