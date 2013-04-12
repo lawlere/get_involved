@@ -13,7 +13,7 @@ $purple: #a07098;
 @mixin latoBold() { font-family: 'Lato', Arial, sans-serif; font-weight: 700; }
 @mixin latoBlack() { font-family: 'Lato', Arial, sans-serif; font-weight: 900; }
 
-body { @include lato(); width: 100%; }
+body { @include lato(); min-width: 917px; }
 a { color: $pink; text-decoration: none; }
 
 /*---LOGO---*/
@@ -46,6 +46,7 @@ a { color: $pink; text-decoration: none; }
 /*Get Involved Sidebar*/
 
 #get_involved_sidebar {
+    float: right;
     width: 200px;
     height: 533px;
     background-color: $light_grey;
@@ -53,8 +54,7 @@ a { color: $pink; text-decoration: none; }
     -moz-border-radius: 5px;
     border-radius: 5px;
     @include latoLight();
-    margin-left: 1000px;
-    margin-top: -550px;
+  
     
     h1 {
         color: white;
@@ -156,14 +156,10 @@ a { color: $pink; text-decoration: none; }
 /*Top Navigation Bar*/
 .top_nav {
     background-color: #414142;
-
+    width: 100%;
 	#navbar {
-        min-width: 800px; 
-        max-width: 1380px;
 		height: 50px;
         overflow: hidden;
-
-        
 	}
     .main {
         float: left;
@@ -183,8 +179,8 @@ a { color: $pink; text-decoration: none; }
         }
     }
     .sub { 
-        float: right;
-        margin-right: 180px;
+        float: left;
+        margin-left: 145px;
         li {
             float: left;
         }
@@ -342,6 +338,7 @@ a { color: $pink; text-decoration: none; }
 
 /* ---About Page--- */
 .about {
+    #page_wrapper { width: 917px; }
     /*drop styles for about page here*/
     //About
 
@@ -351,6 +348,8 @@ a { color: $pink; text-decoration: none; }
         height: 550px;
         margin-left: 80px;
         margin-top: 60px;
+        float: left;
+        width: 620px;
     }
 
     #us {
@@ -415,9 +414,9 @@ a { color: $pink; text-decoration: none; }
 
 
     #story_content {
-        margin-left: 5%;
+        clear: left;
         margin-top: 100px;
-        width: 1130px;
+       
         border-top: solid black 1px;
         padding-top: 30px; 
 
