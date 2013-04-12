@@ -27,7 +27,7 @@ a { color: $pink; text-decoration: none; }
         margin-bottom: 15px;
         width: 300px;
         height: 66px;
-        background: transparent url('/assets/sprite_global.png');
+        background: transparent url('<%= asset_path 'sprite_global.png' %>');
         background-position: 0px;
         text-indent: -9999px;
     }
@@ -47,16 +47,17 @@ a { color: $pink; text-decoration: none; }
 
 #get_involved_sidebar {
     float: right;
-    width: 200px;
-    height: 533px;
+    width: 230px;
     background-color: $light_grey;
     -webkit-border-radius: 5px;
     -moz-border-radius: 5px;
     border-radius: 5px;
     @include latoLight();
+    padding-bottom: 17px;
   
     
-    h1 {
+    h2 {
+        @include latoBold();
         color: white;
         font-size: 120%;
         text-transform: uppercase;
@@ -64,17 +65,20 @@ a { color: $pink; text-decoration: none; }
         padding-left: 32px;
         padding-top: 10px;
     }
+    div {
+         border-top: 1px solid $blue;
+         width: 200px;
+         margin: 15px auto 0;
+         padding-top: 15px;
+    }
 
     p {
         color: white;
         text-align:center;
         position: relative;
-        margin-left: -37px;
+        margin: 0 auto 15px;
         width: 170px;
-        padding-top: 20px;
-        margin-bottom: 15px;
-        border-top: 1px solid $blue;
-        margin-top: 20px;
+
     }
 
     a {
@@ -82,12 +86,14 @@ a { color: $pink; text-decoration: none; }
     }
 
     #donate {
+        display: block;
+        width: 142px;
         padding: 5px;
         background-color: $purple;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
-        margin-left: 20px;
+        margin: 0 auto;
         text-transform: uppercase;
         font-size: 90%;
     }
@@ -98,7 +104,7 @@ a { color: $pink; text-decoration: none; }
         margin-bottom: 0px;
         width: 30px;
         height: 30px;
-        background: transparent url('/assets/sprite_global.png');
+        background: transparent url('<%= asset_path 'sprite_global.png' %>');
         background-position: 10.5% 0px;
         text-indent: -9999px;
     }
@@ -110,7 +116,7 @@ a { color: $pink; text-decoration: none; }
         position: absolute;
         width: 30px;
         height: 30px;
-        background: transparent url('/assets/sprite_global.png');
+        background: transparent url('<%= asset_path 'sprite_global.png' %>');
         background-position: 17.5% 0px;
         text-indent: -9999px;
     }
@@ -121,9 +127,12 @@ a { color: $pink; text-decoration: none; }
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
-        margin-left: 60px;
+        width: 75px;
         text-transform: uppercase;
         font-size: 90%;
+        display: block;
+        margin: 0 auto;
+        text-align: center;
     }
 
     form input {
@@ -171,7 +180,7 @@ a { color: $pink; text-decoration: none; }
             margin: 17px 0 0 43px;
         }
         #nav_logo {
-            background: transparent url('/assets/sprite_global.png');
+            background: transparent url('<%= asset_path 'sprite_global.png' %>');
             width: 35px;
             height: 35px;
             text-indent: -9999px;
@@ -216,7 +225,7 @@ a { color: $pink; text-decoration: none; }
 
 
     .social {
-        background: url('/assets/sprite_global.png') no-repeat;
+        background: url('<%= asset_path 'sprite_global.png' %>') no-repeat;
         display: block;
         text-indent: -9999px;
     }
@@ -338,73 +347,75 @@ a { color: $pink; text-decoration: none; }
 
 /* ---About Page--- */
 .about {
-    #page_wrapper { width: 917px; }
+    #page_wrapper { 
+        width: 917px; 
+    }
     /*drop styles for about page here*/
     //About
 
+    #get_involved_sidebar { 
+        margin-top: 40px; 
+    }
+
     #lifecycle {
-        background-image: url("/images/lifecycle_03.png");
+        background-image: url(<%= asset_path 'bkg_lifecycle.jpg' %>);
         background-repeat:no-repeat;
         height: 550px;
         margin-left: 80px;
-        margin-top: 60px;
+        margin-top: 80px;
         float: left;
-        width: 620px;
+        width: 560px;
+        position: relative;
+
+        li { position: absolute;
+            p {
+                padding-left: 50px;
+                font-size: 77%;
+            }
+        }
     }
 
     #us {
-        background-image: url("/images/number_small_1.png");
+        background: url("/images/number_small_1.png") 0 -3px;
         background-repeat:no-repeat;
         width: 220px;
-        position: absolute;
-        margin-top: 30px;
-        margin-left: -50px;
+        top: 30px;
+       left: -50px;
     }
-        p {
-            padding-left: 50px;
-        }
+      
 
     #smartphones {
         background-image: url("/images/number_small_2.png");
         background-repeat:no-repeat;
-        width: 300px;
-        position: absolute;
-        margin-left: 500px;
+        width: 280px;
+        left: 250px;
+        top: -45px;
     }
-        p {
-            padding-left: 50px;
-        }
+        
 
     #kenya {
         background-image: url("/images/number_small_4.png");
         background-repeat:no-repeat;
         width: 230px;
-        position:absolute;
-        margin-left: 610px;
-        margin-top: 220px;
+        left: 370px;
+        top: 340px;
     }
-        p {
-            padding-left: 50px;
-        }
+        
 
     #companies {
-        background-image: url("/images/number_small_3.png");
+        background: url("/images/number_small_3.png");
         background-repeat:no-repeat;
         width: 240px;
-        position: absolute;
-        margin-left: 130px;
-        margin-top: 520px;
+        left: 60px;
+        top: 420px;
     }
-        p {
-            padding-left: 50px;
-        }
+       
 
     #join_email input {
         width: 200px;
         height: 30px;
         margin-top: 25px;
         margin-right: 20px;
-
         -webkit-border-radius: 8px;
         -moz-border-radius: 8px;
         -o-border-radius: 8px;
@@ -416,7 +427,7 @@ a { color: $pink; text-decoration: none; }
     #story_content {
         clear: left;
         margin-top: 100px;
-       
+        margin-left: 60px;
         border-top: solid black 1px;
         padding-top: 30px; 
 
@@ -435,7 +446,6 @@ a { color: $pink; text-decoration: none; }
         p {
             margin-bottom: 30px;
             color: $light_grey;
-            margin-left: -50px;
             margin-top: 5px;
         }
     }
