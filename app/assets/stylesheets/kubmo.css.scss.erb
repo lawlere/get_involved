@@ -15,6 +15,7 @@ $purple: #a07098;
 
 body { @include lato(); min-width: 917px; }
 a { color: $pink; text-decoration: none; }
+#page_wrapper { overflow: hidden; width: 917px; }
 
 /*---LOGO---*/
 #kubmo_logo_2 {
@@ -347,9 +348,6 @@ a { color: $pink; text-decoration: none; }
 
 /* ---About Page--- */
 .about {
-    #page_wrapper { 
-        width: 917px; 
-    }
     /*drop styles for about page here*/
     //About
 
@@ -426,7 +424,6 @@ a { color: $pink; text-decoration: none; }
 
     #story_content {
         clear: left;
-        margin-top: 100px;
         margin-left: 60px;
         border-top: solid black 1px;
         padding-top: 30px; 
@@ -455,52 +452,44 @@ a { color: $pink; text-decoration: none; }
 .cause {
     @include lato();
 
+    #get_involved_sidebar {
+        margin-top: 30px;
+    }
+
     #overview {
-        width: 800px;
+        float: left;
+        width: 570px;
         margin-left: 60px;
+        margin-bottom: 56px;
         padding-bottom: 30px;
         border-bottom: solid black 1px;
+
+        h2 {
+            @include latoBold();
+            font-size: 140%;
+            margin-top: 30px;
+            line-height: 1.2;
+        }
+
+        p {
+            font-size: 120%;
+            line-height: 1.2;
+            @include latoLight();
+            margin-top: 15px;
+        }
+        a {
+            font-size: 115%;
+        }
     }
     
-    #overview h2 {
-        @include latoBold();
-        font-size: 140%;
-        margin-top: 30px;
-        line-height: 1.2;
-    }
-
-    #overview p {
-        font-size: 120%;
-        line-height: 1.2;
-        @include latoLight()
-    }
-
-    #overview a {
-        margin-left: 396px;
-        position: absolute;
-        margin-top: -20px;
-        font-size: 115%;
-    }
-
-    #p1 {
-        margin-top: 15px;
-    }
-
-    #p2 {
-        margin-top: 15px;
-    }
-
-    #p3 {
-        margin-top: 15px;
-    }
-
     #marriel {
-        background-image: url("/images/marriel_facebook.png");
+        clear: left;
         background-repeat:no-repeat;
         @include lato();
         margin-top: 50px;
         margin-left: 60px;
         width: 500px;
+        padding-bottom: 30px;
 
         #text h3 {
             @include latoBlack();
@@ -516,6 +505,10 @@ a { color: $pink; text-decoration: none; }
 
         #text p {
             line-height: 1.2;
+        }
+        img {
+            display: block;
+            margin-bottom: 47px;
         }
     }
 
