@@ -2,7 +2,7 @@
 /*put all global styles and variables here*/
 $pink: #ba1a63;
 $grey: #292929;
-$light_grey: #404041;
+$light_grey: #414142;
 $blue: #a2bcbb;
 $purple: #a07098;
 
@@ -63,12 +63,12 @@ a { color: $pink; text-decoration: none; }
         font-size: 120%;
         text-transform: uppercase;
         position: relative;
-        padding-left: 32px;
         padding-top: 10px;
+        text-align: center;
     }
     div {
          border-top: 1px solid $blue;
-         width: 200px;
+         width: 80%;
          margin: 15px auto 0;
          padding-top: 15px;
     }
@@ -78,7 +78,7 @@ a { color: $pink; text-decoration: none; }
         text-align:center;
         position: relative;
         margin: 0 auto 15px;
-        width: 170px;
+        width: 98%;
 
     }
 
@@ -99,27 +99,26 @@ a { color: $pink; text-decoration: none; }
         font-size: 90%;
     }
 
+    #share { 
+        overflow: hidden; 
+        width: 46px;
+        margin: 0 auto;
+        a { 
+            float: left;
+            width: 18px;
+            height: 18px;
+            display: block;
+            text-indent: -9999px;
+        }
+    }
     #facebook_about {
-        display: inline-block;
-        margin-left: 60px;
         margin-bottom: 0px;
-        width: 30px;
-        height: 30px;
-        background: transparent url('<%= asset_path 'sprite_global.png' %>');
-        background-position: 10.5% 0px;
-        text-indent: -9999px;
+        background: transparent url('<%= asset_path 'sprite_global.png' %>') -50px -8px;
     }
 
     #twitter_about {
-        display: inline-block;
-        margin-left: 100px;
-        margin-top: -30px;
-        position: absolute;
-        width: 30px;
-        height: 30px;
-        background: transparent url('<%= asset_path 'sprite_global.png' %>');
-        background-position: 17.5% 0px;
-        text-indent: -9999px;
+        margin-left: 10px;
+       background: transparent url('<%= asset_path 'sprite_global.png' %>') -69px -8px;
     }
 
     #email_us a {
@@ -143,11 +142,11 @@ a { color: $pink; text-decoration: none; }
         -moz-border-radius: 5px;
         border-radius: 5px;
         opacity: 0.5;
-        margin-left: 12px;
+        margin: 0 auto;
+        display: block;
     }
 
     form button {
-        margin-left: 48px;
         @include latoLight();
         width: 100px;
         height: 25px;
@@ -158,14 +157,16 @@ a { color: $pink; text-decoration: none; }
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
-        margin-top: 14px;
+        margin: 14px auto 0;
+        display: block;
+
     }
 }
 
 
 /*Top Navigation Bar*/
 .top_nav {
-    background-color: #414142;
+    background-color: $light_grey;
     width: 100%;
 	#navbar {
 		height: 50px;
@@ -277,7 +278,7 @@ a { color: $pink; text-decoration: none; }
     #landing_page {
         background-image: url("/images/landing_page_background.png");
         height: 880px;
-        background-position: left -20px top -25px;
+        background-position: -20px -25px;
     }
 
     h2 {
@@ -566,6 +567,65 @@ a { color: $pink; text-decoration: none; }
 and (min-device-width : 320px) 
 and (max-device-width : 480px) {
 /* Styles for all iphones, portrait and landscape */
+    body { width: 100%; min-width: 0; } 
+    #page_wrapper { width: auto; }
+
+    #get_involved_sidebar { clear: left; float: none; width: 100%; border-radius: 0; -webkit-border-radius: 0; -moz-border-radius: 0; }
+
+    /*---nav---*/
+    .top_nav {
+        #navbar { height: 70px; }
+        .main {
+            #nav_logo { margin-left: 10px; margin-top: 10px; }
+            a { margin-top: 7px; margin-left: 20px; }
+        }
+        .sub { margin-left: 65px; margin-top: -16px;
+            #donate {
+                a { font-size: 93%; margin-right: 20px; padding: 4px; }
+            }
+        }
+        #facebook { margin-top: 8px; }
+        #twitter { margin-top: 11px; }
+        #mail { margin-top: 11px; }
+
+    }
+
+    /*---logo---*/
+    #kubmo_logo_2 { overflow: hidden;
+        a { background: transparent url(<%= asset_path 'mobile_bkg_logo.png' %>) no-repeat; background-size: 120px auto; height: 32px; float: left; margin-left: 13px; width: 120px; }
+        p { left: 0; float: left; margin-left: 20px; font-size: 80%; line-height: 130%; margin-top: 16px; position: static; width: 150px; }
+    }
+
+    /*---homepage---*/
+    .home {
+        #landing_page { background-repeat: no-repeat; background-size: 420px auto; height: 223px; }
+        h2 { font-size: 85%; width: 160px; margin-left: 10px; margin-top: 20px; }
+        #click { height: auto; margin-top: 150px; margin-left: 10px; font-size: 77%; padding: 15px; }
+        #photo_credit { margin: 8px 0 0 10px; }
+    }
+
+    /*---about---*/
+    .about { 
+        #lifecycle { background: transparent; height: auto; margin: 0 0 15px 10px; width: auto; 
+            li { background-position: 0 17px; height: 80px; margin: 10px 0 0;  position: static; width: auto; 
+                p { background-size: 77px auto; height: 80px; padding-right: 116px; padding-top: 20px; }
+            }
+            #us { 
+                p { background: transparent url(<%= asset_path 'mobile_lifecycle_1.png' %>) no-repeat top right;  }
+            }
+            #smartphones { 
+                p { background: transparent url(<%= asset_path 'mobile_lifecycle_2.png' %>) no-repeat top right;  }
+            }
+            #kenya { background-position: 0 21px; 
+                p { background: transparent url(<%= asset_path 'mobile_lifecycle_3.png' %>) no-repeat top right;  }
+            }
+            #companies { background-position: 0 23px; 
+                p { background: transparent url(<%= asset_path 'mobile_lifecycle_4.png' %>) no-repeat top right; }
+            }
+        }
+        #story_content { border-top: 0; margin-left: 13px; padding-right: 13px; width: auto; }
+
+    }
         
     @media only screen and (orientation : landscape) {
         /* Styles for landscape iphone only */
