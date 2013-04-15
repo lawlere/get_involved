@@ -277,8 +277,8 @@ a { color: $pink; text-decoration: none; }
 .home {
     #landing_page {
         background-image: url("/images/landing_page_background.png");
-        height: 880px;
-        background-position: -20px -25px;
+        height: 920px;
+        background-position: -20px -50px;
     }
 
     h2 {
@@ -430,18 +430,19 @@ a { color: $pink; text-decoration: none; }
             color: $pink;
             margin-bottom: 15px;
             font-size: 140%;
-            @include latoBold()
+            @include latoBlack()
         }
 
         h3 {
             color: $grey;
-            @include latoBold()
+            @include lato()
         }
 
         p {
             margin-bottom: 30px;
             color: $light_grey;
             margin-top: 5px;
+            @include latoLight();
         }
     }
 }
@@ -492,13 +493,14 @@ a { color: $pink; text-decoration: none; }
         }
 
         #text h4 {
-            @include latoBlack();
+            @include lato();
             margin-top: 10px;
             margin-bottom: 10px;
         }
 
         #text p {
             line-height: 1.2;
+            @include latoLight();
         }
         img {
             display: block;
@@ -528,17 +530,19 @@ a { color: $pink; text-decoration: none; }
     }
 
     #blog_content {
-        width: 75%;
+        float: left;
+        width: 570px;
         margin-left: 60px;
-        margin-top: 30px;
-        margin-right: 150px;
+        margin-bottom: 56px;
+        padding-bottom: 30px;
     }
 
     #blog_content h2 {
         color: #404041;
         font-size: 120%;
         margin-bottom: 15px;
-        margin-top: 5px;
+        margin-top: 0px;
+        @include latoBlack();
     }
 
     #blog_content h3 {
@@ -546,17 +550,20 @@ a { color: $pink; text-decoration: none; }
         margin-bottom: 10px;
         font-weight: bold;
         color: #404041;
+        @include lato();
     }
 
     #blog_content p {
         margin-bottom: 15px;
         font-weight: normal;
+        @include latoLight();
     }
 
     .blog_date {
         margin-top: 50px;
         color: $pink;
         font-size: 80%;
+        @include latoBlack();
     }
 
 }
@@ -574,12 +581,12 @@ and (max-width : 480px) {
 
     /*---nav---*/
     .top_nav {
-        #navbar { height: 70px; }
+        #navbar { height: 80px; }
         .main {
             #nav_logo { margin-left: 10px; margin-top: 10px; }
             a { margin-top: 7px; margin-left: 20px; }
         }
-        .sub { margin-left: 65px; margin-top: -16px;
+        .sub { margin-left: 60px; margin-top: -8px;
             #donate {
                 a { font-size: 93%; margin-right: 20px; padding: 4px; }
             }
@@ -598,10 +605,29 @@ and (max-width : 480px) {
 
     /*---homepage---*/
     .home {
-        #landing_page { background-repeat: no-repeat; background-size: 420px auto; height: 223px; }
+        #landing_page { background-repeat: no-repeat; background-size: 420px auto; height: 300px; }
         h2 { font-size: 85%; width: 160px; margin-left: 10px; margin-top: 20px; }
         #click { height: auto; margin-top: 150px; margin-left: 10px; font-size: 77%; padding: 15px; }
         #photo_credit { margin: 8px 0 0 10px; }
+    }
+
+    /*---cause---*/
+    .cause {
+        #overview {
+            border-top: 0; margin-left: 13px; padding-right: 13px; width: auto;
+        }
+
+        #marriel {
+            border-top: 0; margin-left: 13px; padding-right: 13px; width: auto;
+        }
+    }
+
+    /*---blog---*/
+    .blog {
+
+        #blog_content {
+            border-top: 0; margin-left: 13px; padding-right: 13px; width: auto;
+        }
     }
 
     /*---about---*/
