@@ -1,10 +1,12 @@
 /*---Global Styles---*/
 /*put all global styles and variables here*/
-$pink: #ba1a63;
-$grey: #292929;
-$light_grey: #414142;
+$teal: #1B9792;
+$grey: #2B2727;
+$light_grey: #2B2727;
 $blue: #a2bcbb;
-$purple: #a07098;
+$pink: #a07098;
+$ivory: #F7F5ED;
+$pink: #C63D96;
 
 /*fonts*/
 
@@ -14,7 +16,7 @@ $purple: #a07098;
 @mixin latoBlack() { font-family: 'Lato', Arial, sans-serif; font-weight: 900; }
 
 body { @include lato(); min-width: 917px; }
-a { color: $pink; text-decoration: none; }
+a { color: $teal; text-decoration: none; }
 #page_wrapper { overflow: hidden; width: 917px; }
 
 /*---LOGO---*/
@@ -28,7 +30,7 @@ a { color: $pink; text-decoration: none; }
         margin-bottom: 15px;
         width: 300px;
         height: 66px;
-        background: transparent url('<%= asset_path 'sprite_global.png' %>');
+        background: transparent url('<%= asset_path 'sprite_global.jpg' %>');
         background-position: 0px;
         text-indent: -9999px;
     }
@@ -36,10 +38,9 @@ a { color: $pink; text-decoration: none; }
     p {
         color: #292929;
         position: absolute;
-        font-weight: 300;
         font-size: 120%;
-        left: 330px;
-        top: 26px;
+        left: 350px;
+        top: 40px;
         @include latoLight();
     }
 }
@@ -59,7 +60,7 @@ a { color: $pink; text-decoration: none; }
     
     h2 {
         @include latoBold();
-        color: white;
+        color: $ivory;
         font-size: 120%;
         text-transform: uppercase;
         position: relative;
@@ -67,14 +68,14 @@ a { color: $pink; text-decoration: none; }
         text-align: center;
     }
     div {
-         border-top: 1px solid $blue;
+         border-top: 1px solid $teal;
          width: 80%;
          margin: 15px auto 0;
          padding-top: 15px;
     }
 
     p {
-        color: white;
+        color: $ivory;
         text-align:center;
         position: relative;
         margin: 0 auto 15px;
@@ -83,14 +84,14 @@ a { color: $pink; text-decoration: none; }
     }
 
     a {
-        color: white;
+        color: $ivory;
     }
 
     #donate {
         display: block;
-        width: 147px;
+        width: 160px;
         padding: 5px;
-        background-color: $purple;
+        background-color: $pink;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
@@ -113,17 +114,17 @@ a { color: $pink; text-decoration: none; }
     }
     #facebook_about {
         margin-bottom: 0px;
-        background: transparent url('<%= asset_path 'sprite_global.png' %>') -50px -8px;
+        background: transparent url('<%= asset_path 'sprite_global.jpg' %>') -50px -8px;
     }
 
     #twitter_about {
         margin-left: 10px;
-       background: transparent url('<%= asset_path 'sprite_global.png' %>') -69px -8px;
+       background: transparent url('<%= asset_path 'sprite_global.jpg' %>') -69px -8px;
     }
 
     #email_us a {
         padding: 5px;
-        background-color: $purple;
+        background-color: $pink;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
@@ -151,9 +152,9 @@ a { color: $pink; text-decoration: none; }
         width: 100px;
         height: 25px;
         font-size: 90%;
-        color: white;
+        color: $ivory;
         text-transform: uppercase;
-        background-color: $purple;
+        background-color: $pink;
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
         border-radius: 5px;
@@ -166,11 +167,12 @@ a { color: $pink; text-decoration: none; }
 
 /*Top Navigation Bar*/
 .top_nav {
-    background-color: $light_grey;
+    background-color: $grey;
     width: 100%;
 	#navbar {
 		height: 50px;
         overflow: hidden;
+        color: $grey;
 	}
     .main {
         float: left;
@@ -180,9 +182,10 @@ a { color: $pink; text-decoration: none; }
 
         a {
             margin: 17px 0 0 43px;
+
         }
         #nav_logo {
-            background: transparent url('<%= asset_path 'sprite_global.png' %>');
+            background: transparent url('<%= asset_path 'sprite_global.jpg' %>');
             width: 35px;
             height: 35px;
             text-indent: -9999px;
@@ -202,18 +205,18 @@ a { color: $pink; text-decoration: none; }
 
 
 	a {
-		color: white;
+		color: $ivory;
 		text-decoration: none;
         @include latoBlack();
 	}
 
     a:hover,
     a.active {
-        color: $pink;
+        color: $teal;
     }
 
     a:active {
-        color: $pink;
+        color: $teal;
     }
 
 
@@ -221,13 +224,13 @@ a { color: $pink; text-decoration: none; }
 	li a {
         display: block;
         background-color: inherit;
-        color:  #fff ;
+        color:  $ivory;
     }
 
 
 
     .social {
-        background: url('<%= asset_path 'sprite_global.png' %>') no-repeat;
+        background: url('<%= asset_path 'sprite_global.jpg' %>') no-repeat;
         display: block;
         text-indent: -9999px;
     }
@@ -256,8 +259,8 @@ a { color: $pink; text-decoration: none; }
     #donate {
         a {
             font-size: 138%;
-            color: white;
-            background-color: $pink;
+            color: $ivory;
+            background-color: $teal;
             padding: 8px;
             margin-top: 6px;
             margin-right: 40px;
@@ -276,29 +279,29 @@ a { color: $pink; text-decoration: none; }
 /* ---Landing Page--- */
 .home {
     #landing_page {
-        background-image: url("/images/landing_page_background.png");
+        background-image: url("/images/girl_color.jpg");
         height: 920px;
-        background-position: -20px -50px;
+        background-position: -20px -120px;
     }
 
     h2 {
-        color: white;
-        font-size: 180%;
+        color: $ivory;
+        font-size: 200%;
         font-weight: 300;
         width: 450px;
         margin-left: 60px;
         margin-top: 150px;
         line-height:140%;
         border-top-style:solid;
-        border-top-color: #a2bcbb;
-        border-top-width: 3px;
+        border-top-color: $teal;
+        border-top-width: 2px;
         border-bottom-style:solid;
-        border-bottom-color: #a2bcbb;
-        border-bottom-width: 3px;
+        border-bottom-color: $teal;
+        border-bottom-width: 2px;
         position: absolute;
         padding-top: 8px;
         padding-bottom: 8px;
-        @include latoBold();
+        @include latoLight();
     }
 
     #click {
@@ -326,24 +329,29 @@ a { color: $pink; text-decoration: none; }
         -o-transition: all 0.5s ease-in-out;
         transition: all 0.5s ease-in-out;
       
-        color: #fff;
+        color: $ivory;
         font-size: 120%;
         font-weight: 300;
         height: 35px;
         text-decoration: none;
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 22px;
+        padding-right: 22px;
         padding-top: 14px;
         text-transform: uppercase;
 
         @include latoBlack();
     }
 
+
+
     #photo_credit {
-        color: white;
+        color: $ivory;
         font-size: 80%;
-        margin: 20px 0 0 60px;
-        
+        margin: 450px 0 0 60px;
+    }
+
+    #photo_credit a {
+        color: $pink;
     }
 }
 
@@ -427,7 +435,7 @@ a { color: $pink; text-decoration: none; }
         padding-top: 30px; 
 
         h2 {
-            color: $pink;
+            color: $teal;
             margin-bottom: 15px;
             font-size: 140%;
             @include latoBlack()
@@ -488,7 +496,7 @@ a { color: $pink; text-decoration: none; }
 
         #text h3 {
             @include latoBlack();
-            color: $pink;
+            color: $teal;
             font-size: 130%;
         }
 
