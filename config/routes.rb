@@ -9,10 +9,9 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/home" => "home#index"
   match "/about" => "about#index"
   match "/cause" => "cause#index"
+  match "/apply" => "apply#index"
   match "/signup" => "signup#signup"
   match "/blog" => "blog#index"
-  # match "/what" => "home#what"
-  # match "/story" => "home#story"
   match "/donate" => redirect("http://www.indiegogo.com/projects/kubmo"), :as => :Donate 
 
 end
