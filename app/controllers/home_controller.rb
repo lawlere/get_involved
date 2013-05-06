@@ -17,6 +17,9 @@ class HomeController < ApplicationController
 
   def story
   end
+
+  def media
+  end
   
  end
 

@@ -12,6 +12,7 @@ RailsPrelaunchSignup::Application.routes.draw do
   match "/apply" => "apply#index"
   match "/signup" => "signup#signup"
   match "/blog" => "blog#index"
-  match "/donate" => redirect("http://www.indiegogo.com/projects/kubmo"), :as => :Donate 
+  match "/donate" => redirect("http://www.indiegogo.com/projects/kubmo"), :as => :Donate
+  match "/media" => "home#media" 
 
 end

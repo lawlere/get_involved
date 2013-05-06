@@ -100,6 +100,21 @@ a { color: $teal; text-decoration: none; }
         font-size: 90%;
     }
 
+    #media_click {
+        @include latoLight();
+        padding: 5px;
+        font-size: 90%;
+        color: $ivory;
+        text-transform: uppercase;
+        background-color: $teal;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        display: block;
+        margin-left: 48px;
+        margin-top: 15px;
+        display: inline-block;
+    }
+
     #share { 
         overflow: hidden; 
         width: 46px;
@@ -571,6 +586,135 @@ a { color: $teal; text-decoration: none; }
         color: $pink;
         font-size: 80%;
         @include latoBlack();
+    }
+
+}
+
+.apply {
+/*drop styles for apply page here*/
+    
+    #intro {
+        width: 750px;
+        margin-left: 60px;
+        margin-top: 50px;
+        @include latoLight();
+    }
+
+    #google_doc {
+        margin-left: 60px;
+    }
+    
+}
+
+.media {
+/*drop styles for apply page here*/
+
+    h1 {
+        @include latoBlack();
+        color: $pink;
+        font-size:130%;
+        margin-top: 50px;
+        margin-left: 60px;
+    } 
+
+    h2 {
+        @include latoBold();
+        font-size:100%;
+        margin-top: -30px;
+        color: $grey;
+        border: none;
+        margin-left: 90px;
+    }
+
+    h3 {
+        margin-left: 60px;
+    }
+
+    p {
+        margin-left: 60px;
+    }
+
+    #about_media {
+        margin-top: 20px;
+
+    #about_media_small {
+        margin-top: 30px;
+        padding-left: 15px;
+
+        h2 {
+            position: absolute;
+            margin-top: -50px;
+            margin-left: 90px;
+            padding-top: 40px;
+        }
+
+        h3 {
+            padding-top: 10px;
+            margin-left: 90px;
+        }
+
+        p {
+            margin-left: 100px;
+            width: 780px;
+            margin-top: 10px;
+            @include latoLight();
+        }
+    }
+}
+    #social_media_kit   {
+        margin-left: 100px;
+
+        h2 {
+            margin-left: -10px;
+            padding-top: 50px;
+        }
+
+        ul {
+            margin-top: 40px;
+            position: absolute;
+        }
+
+        ul li {
+            padding-top: 5px;
+        }
+
+    }
+
+    #partners_media_kit {
+        margin-left: 100px;
+        h2 {
+            padding-top: 140px;
+            margin-left: -10px;
+        }
+
+        ul {
+            margin-top: 130px;
+            position: absolute;
+        }
+
+        ul li {
+            padding-top: 5px;
+        }
+    }
+
+    #signage_media_kit  {
+
+        h2 {
+            padding-top: 315px;
+        } 
+
+        #logo_full_media {
+            width: 500px;
+            margin-top: 330px;
+            position: absolute;
+            margin-left: 100px;
+        }
+
+        #logo_circle_media {
+            width: 140px;
+            margin-top: 500px;
+            margin-left: 100px;
+        }
     }
 
 }
